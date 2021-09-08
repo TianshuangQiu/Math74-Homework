@@ -4,6 +4,9 @@
 \usepackage{amsmath} %maths
 \usepackage[utf8]{inputenc} %useful to type directly diacritic characters
 \usepackage{graphicx}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
 \graphicspath{ {./} }
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
@@ -63,6 +66,19 @@ Since no three points are colinear, we can choose any 3 points to form a triangl
 \subsection{c}
 Similar to part (b), we choose any 4 points to form a quadrilateral. The total amount is $\binom {50} {4} = \frac{50!}{46!4!} = 230300$.
 
+\newpage
+
+\section{Wed Dis, 2}
+Since the three books needs to be next to each other in the specified order, we can think of it as if the three are "glued together" into one book. So essentially we are looking for the amount of ways to arrange 5 books.
+\newline
+There are 5 ways to choose the first one, 4 for the second, ..., for a total of $5! = 120$ ways to arrange it.
+
+\section{Wed Dis, 4}
+We are looking for the amount of ways to rearrange "GAUSS". Since there are 5 letters, we have $5!=120$. Then we remove the ways that we overcount the repeat "S". $\frac{5!}{2!} = 60$
+\newline
+Similarly, for "RAMANUJAN", we take all possible permutations and divide by repeating letts "A" and "N"$: \frac{9!}{3!2!}$
+
+\newpage
 
 
 
