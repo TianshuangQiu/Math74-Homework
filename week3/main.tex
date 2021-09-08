@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 104}
+\maketitle
+
+\section{Wed Lec, 1a}
+Prove that $\binom{n}{k} + \binom{n}{k+1} = \binom{n+1}{k+1}$
+\subsection{algebraic}
+We first expand the expression:
+$$LHS = \frac{n!}{(n-k)!k!} + \frac{n!}{(n-k-1)!(k+1)!}$$
+Then we simplify:
+$$LHS = \frac{n!}{(n-k)(n-k-1)!k!} + \frac{n!}{(k+1)(n-k-1)!k!}$$
+$$LHS = \frac{(n!(k+1))+(n!(n-k))}{(n-k)(k+1)(n-k-1)!k!} $$
+$$LHS = \frac{n!(n+1)}{(k+1)!(n-k)!} $$
+$$LHS = \frac{(n+1)!}{(k+1)!(n-k)!}$$
+Now we expand the right side:
+$$RHS = \frac{(n+1)!}{(k+1)!(n-k)!}$$
+We see thatt RHS = LHS.
+\newline
+Q.E.D.
+
+\subsection{Combinatorial}
+The right hand side calculates the number of bitstrings of length $n+1$ with $k+1$ 0's. Since each bit can either end in $0$ or $1$, we can split them into different cases.
+\newline
+If the the last is $0$, there are $k$ 0's left in the substring of length $n$. So to calculate this, we use $\binom{n}{k}$.
+\newline
+If the last bit is $1$, there are still $k+1$ 0's left in the substring before it. Using the formula, we get $\binom {n}{k+1}$
+\newline
+Adding them together equals the right hand side. They are evaluating the same thing.
+\newline
+Q.E.D.
+
+\end{document}
