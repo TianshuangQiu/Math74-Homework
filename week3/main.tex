@@ -80,7 +80,29 @@ Similarly, for "RAMANUJAN", we take all possible permutations and divide by repe
 
 \newpage
 
+\section{Fri Lec, 1}
+\subsection{b}
+\subsubsection{Combinatorial}
+RHS is the number of ways to choose a team and a captain out of 11 people: choose the captain first, then choose the rest of the team (each member can either be chosen or not): $11 \times 2^{10}$
+\newline
+LHS chosoes the team first, then chooses the captain. There are $\binom{11}{n}$ ways to choose n people from 11 to form a team. Then, from that team there are $n$ ways to pick a captain: $\sum_{i=0}^{11}i\binom{11}{i}$
+\newline
+RHS = LHS, Q.E.D.
 
+\subsubsection{Calculus}
+Let x = 1, consider $$(x+y)^{11} = \sum_{i=0}^{11}\binom{11}{i}x^{11-i}y^i$$
+We take the derivative of both sides:
+$$11(x+y)^{10} = \sum_{i=0}^{11}\binom{11}{i}x^{11-i}y^i$$
+
+
+\subsection{2d}
+Let the $n$ students be our pigeons, and the friends they have be $f$, and $f$ would be the holes. $0 \leq f \leq n-1$
+\newline
+Case 1: if someone has $0$ friends, then there cannot be anyone with $n-1$ friends. If there is a person who is not friends with anyone, and since friendships are mutual, then there cannot be anyone who is friends with everyone. In this case $0 \leq f < n-1$. There are $n-1$ holes, $n > n-1$. By PHP there must be 2 people with the same amount of friends.
+\newline
+Case 1: otherwise, $0 < f \leq n-1$. Once again there are $n-1$ holes, by PHP there must be 2 people with the same amount of friends.
+\newline
+Q.E.D.
 
 
 \end{document}
