@@ -51,7 +51,7 @@ Let people be the pigeons and each letter is a different hole.
 \newline
 Number of pigeons = number of names = 33
 \newline
-Number of holes = number of letters - 30
+Number of holes = number of letters = 30
 \newline
 Since the amount of pigeons is greater than the amount of holes, some hole must have at least 2 pigeons by PHP. Therefore some ending letter must be shared by at least 2 names.
 
@@ -61,7 +61,7 @@ Since the amount of pigeons is greater than the amount of holes, some hole must 
 We can form a segment from any two points. So the total amount of segments is $\binom{50}{2} = \frac{50!}{2!48!}=1225$
 
 \subsection{b}
-Since no three points are colinear, we can choose any 3 points to form a triangle. So the total amount is $\binom{50}{3} = \frac{50!}{3!47!} = 19600$
+Since no three points are co-linear, we can choose any 3 points to form a triangle. So the total amount is $\binom{50}{3} = \frac{50!}{3!47!} = 19600$
 
 \subsection{c}
 Similar to part (b), we choose any 4 points to form a quadrilateral. The total amount is $\binom {50} {4} = \frac{50!}{46!4!} = 230300$.
@@ -74,33 +74,27 @@ Since the three books needs to be next to each other in the specified order, we 
 There are 5 ways to choose the first one, 4 for the second, ..., for a total of $5! = 120$ ways to arrange it.
 
 \section{Wed Dis, 4}
-We are looking for the amount of ways to rearrange "GAUSS". Since there are 5 letters, we have $5!=120$. Then we remove the ways that we overcount the repeat "S". $\frac{5!}{2!} = 60$
+We are looking for the amount of ways to rearrange "GAUSS". Since there are 5 letters, we have $5!=120$. Then we remove the ways that we over count the repeat "S". $\frac{5!}{2!} = 60$
 \newline
-Similarly, for "RAMANUJAN", we take all possible permutations and divide by repeating letts "A" and "N"$: \frac{9!}{3!2!}$
+Similarly, for "RAMANUJAN", we take all possible permutations and divide by repeating letters "A" and "N"$: \frac{9!}{3!2!} = 30240$
 
 \newpage
 
-\section{Fri Lec, 1}
-\subsection{b}
-\subsubsection{Combinatorial}
-RHS is the number of ways to choose a team and a captain out of 11 people: choose the captain first, then choose the rest of the team (each member can either be chosen or not): $11 \times 2^{10}$
+\section{Fri Lec, 1b}
+\subsection{Combinatorial}
+RHS is the number of ways to choose a team and a captain out of $n$ people: choose the captain first, then choose the rest of the team (each member can either be chosen or not): $n \times 2^{n-1}$
 \newline
-LHS chosoes the team first, then chooses the captain. There are $\binom{11}{n}$ ways to choose n people from 11 to form a team. Then, from that team there are $n$ ways to pick a captain: $\sum_{i=0}^{11}i\binom{11}{i}$
+LHS chooses the team first, then chooses the captain. There are $\binom{n}{k}$ ways to choose $k$ people from $n$ to form a team. Then, from that team there are $k$ ways to pick a captain. Finally we sum up all possible number of team size (from 0 to n): $\sum_{k=0}^{n}k\binom{n}{k}$
 \newline
 RHS = LHS, Q.E.D.
 
-\subsubsection{Calculus}
-Let x = 1, consider $$(x+y)^{11} = \sum_{i=0}^{11}\binom{11}{i}x^{11-i}y^i$$
-We take the derivative of both sides:
-$$11(x+y)^{10} = \sum_{i=0}^{11}\binom{11}{i}x^{11-i}y^i$$
 
-
-\subsection{2d}
-Let the $n$ students be our pigeons, and the friends they have be $f$, and $f$ would be the holes. $0 \leq f \leq n-1$
+\section{Fri Lec, 4}
+Let the $n$ students be our pigeons, and the friends they have be $f$, so $f$ would be the holes. $0 \leq f \leq n-1$
 \newline
 Case 1: if someone has $0$ friends, then there cannot be anyone with $n-1$ friends. If there is a person who is not friends with anyone, and since friendships are mutual, then there cannot be anyone who is friends with everyone. In this case $0 \leq f < n-1$. There are $n-1$ holes, $n > n-1$. By PHP there must be 2 people with the same amount of friends.
 \newline
-Case 1: otherwise, $0 < f \leq n-1$. Once again there are $n-1$ holes, by PHP there must be 2 people with the same amount of friends.
+Case 2: otherwise, $0 < f \leq n-1$. Once again there are $n-1$ holes, by PHP there must be 2 people with the same amount of friends.
 \newline
 Q.E.D.
 
