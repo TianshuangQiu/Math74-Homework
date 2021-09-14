@@ -31,7 +31,24 @@ We can reach the same result by subtracting the amount where there is only $x$, 
 \newline
 For the first three, there is only 1 way for that to happen since that variable has to be raised to 2020. For $xz$, we have $a+b = 2020$, feeding 2018 biscuits to 2 dogs. We need to subtract 2 since we have already counted having only one term. Therefore $\binom{2018+2-1}{2-1} = 2019$.
 \newline
-Adding them together we have $1 \times 3 + 2019 \times 3 = 6060$ 
+Adding them together we have $1 \times 3 + 2019 \times 3 = 6060$
+\newpage
+
+
+\section{Dis Mon, 1a}
+LHS is the amount of ways to choose a team with $k$ people and a captain from a group with $n$ people. It chooses the team first: $\binom{n}{k}$. Then from that team we choose a captain with $k$ ways to do it.
+\newline
+RHS calculates the amount of ways to choose a captain first: $n$, then the rest of the team: $\binom{n-1}{k-1}$. Both sides calculate the same thing. Therefore LHS = RHS.
+\newline
+Q.E.D.
+
+\section{Dis Mon, 4}
+$$x+\frac{1}{x}=7$$
+$$(x+\frac{1}{x})^2=49$$
+$$x^2+\frac{1}{x^2}+2=49$$
+$$x^2+\frac{1}{x^2}=47$$
+
+
 
 
 
