@@ -23,17 +23,20 @@
 
 \section{Lec Mon, 1c}
 \subsection{a}
-Since each term is the product of $x^a, y^b, z^c$, and $a+b+c = 2020$, we can simplify this problem into dogs and biscuits. $\binom{2020+3-1}{3-1} = \binom{2022}{2}$
+Since each term is the product of $x^a, y^b, z^c$, and $a+b+c = 2020$, we can simplify this problem into dogs and biscuits with 2020 biscuits and 3 dogs: $\binom{2020+3-1}{3-1} = \binom{2022}{2}$
 
 \subsection{b}
-Before combining, we expand each term by picking one variable from each of the 2020 $(x+y+z)$ multiplied together. So we have $3^2020$.
+Before combining, we expand each term by picking one variable from each of the 2020 $(x+y+z)$ multiplied together. So we have $3^{2020}$.
 
 \subsection{c}
+This is a "no dogs go hungry" problem. We can just simply pick $x,y,z$ from the first three brackets, feeding each dog a biscuit. Now we have 2017 biscuits with 3 dogs $\binom{2017+3-1}{3-1} = \binom{2019}{2}$.
+
+\subsubsection{Alternate solution}
 We can reach the same result by subtracting the amount where there is only $x$, or only $y$, or only $z$, or $xy$, $xz$, $yz$.
 \newline
 For the first three, there is only 1 way for that to happen since that variable has to be raised to 2020. For $xz$, we have $a+b = 2020$, feeding 2018 biscuits to 2 dogs. We need to subtract 2 since we have already counted having only one term. Therefore $\binom{2018+2-1}{2-1} = 2019$.
 \newline
-Adding them together we have $1 \times 3 + 2019 \times 3 = 6060$
+Adding them together we have $1 \times 3 + 2019 \times 3 = 6060$. Now we subtract it from what we had in part (a): $\binom{2022}{2}-6060$ which is the same as $\binom{2019}{2}$
 \newpage
 
 
@@ -105,10 +108,10 @@ This assumes that 2a ($DE \parallel AB$, $DE = 0.5AB$) has already been proven.
 \newline
 Since $DE \parallel AB$, the alternate interior angles are equal, $\angle EDB = \angle DBA$, $\angle DEA = EAB$. Since the sum of all the angles of a triangle is $180 \degrees$, the third angle must also be the same. Therefore $\triangle DEO \sim \triangle BAO$ by AAA similarity.
 \newline
-Because $DE = 0.5AB$, $DO = 0.5BO, EO = 0.5 AO$.
+Because $DE = 0.5AB$, $DO = 0.5BO, EO = 0.5 AO$ by the principles of similarity.
 \newline
-Using $DE \parallel AB$ again, we can see that $\angle EGF = \angle AFG$. By the same reasoning as above we can see that $\triangle GOE \sim \triangle FOA$ by AAA similarity. Therefore $$\frac{GE}{AF} = \frac{EO}{OA} = \frac{1}{2}$$.
-Since $DE \parallel AB$, we can show that $\angle CGE = \angle CFB$, $\angle CEG = \angle CBF$ due to the corresponding angles being equal. $\triangle CGE \sim \triangle CFB$ by AAA similarity. $GE = 0.5FB$
+Using $DE \parallel AB$ again, we can see that $\angle EGF = \angle AFG$. By the same reasoning as above we can see that $\triangle GOE \sim \triangle FOA$ by AAA similarity. Therefore $$\frac{GE}{AF} = \frac{EO}{OA} = \frac{1}{2}$$
+Since $DE \parallel AB$, we can show that $\angle CGE = \angle CFB$, $\angle CEG = \angle CBF$ due to the corresponding angles being equal. $\triangle CGE \sim \triangle CFB$ by AAA similarity. Since E is the midpoint of BC, $CE = 0.5 CB$, then by the principle of similarity, $GE = 0.5FB$
 \newline
 Since $GE = \frac{1}{2}FB = \frac{1}{2}AF$, $AF = FB$. Therefore all three medians intersect at point $O$.
 \newpage
@@ -124,7 +127,7 @@ We first prove a congruency between two right triangles. Since these are all squ
 \newline
 Therefore $\angle DMA = \angle CBJ = \angle BCJ = 45 \degrees$ due to the triangle being isosceles and right. Let $DA$ have length $x$, then $DM$ would have length $\sqrt 2$. Since $\angle DMA = 45 \degrees$, its compliment $\angle DMH = 135 \degrees$. Similarly, $\angle BJC$'s compliment $\angle BJD = 135 \degrees$. $DJ$ has length 2x, and $JB$ has length $\sqrt 2$.
 \newline
-$\frac{MH}{JB} = \frac{DM}{DJ}$, and since the $\angle DMH = \angle BJD = 135 \degrees$, $\triangle DMH \sim \triangle DJB$, and $\angle DHM = \angle JBD$.
+$\frac{MH}{JB} = \frac{DM}{DJ}$, and since the $\angle DMH = \angle BJD = 135 \degrees$, $\triangle DMH \sim \triangle DJB$ (RAR similarity), and $\angle DHM = \angle JBD$.
 \newline
 Thus we have moved all three angles into the right angle $\angle HBC$, proving that the sum of these three angles is $90 \degrees$. Q.E.D.
 \newpage

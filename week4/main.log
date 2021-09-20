@@ -1,213 +1,173 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.3)  19 SEP 2021 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.23)  20 SEP 2021 11:09
 entering extended mode
-**./main.tex
-(main.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-08-27>
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls
-Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo
-File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
-cfg
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
-.def
+Package color Info: Driver file: pdftex.def on input line 147.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
-For additional information on amsmath, use the `?' option.
 
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
+\@emptytoks=\toks15
 \ex@=\dimen139
-))
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
-) (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
-y
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count190
+\inf@bad=\count187
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count191
-\leftroot@=\count192
+\uproot@=\count188
+\leftroot@=\count189
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count193
-\DOTSCASE@=\count194
+\classnum@=\count190
+\DOTSCASE@=\count191
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
+\Mathstrutbox@=\box47
+\strutbox@=\box48
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count195
-\c@MaxMatrixCols=\count196
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
 \dotsspace@=\muskip16
-\c@parentequation=\count197
-\dspbrk@lvl=\count198
-\tag@help=\toks17
-\row@=\count199
-\column@=\count266
-\maxfields@=\count267
-\andhelp@=\toks18
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks16
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks17
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks19
+\@envbody=\toks18
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.st
-y
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.s
-ty
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.sty
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks21
-\thm@bodyfont=\toks22
-\thm@headfont=\toks23
-\thm@notefont=\toks24
-\thm@headpunct=\toks25
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
 \thm@preskip=\skip52
 \thm@postskip=\skip53
 \thm@headsep=\skip54
-\dth@everypar=\toks26
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\wasysym.sty
+\dth@everypar=\toks25
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 \symwasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
-) (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks27
-\inpenc@posthook=\toks28
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
-ty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks29
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
-ty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty
+\KV@toks@=\toks28
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
-cs.cfg
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 )
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
-Package: babel 2021/07/22 3.63 The Babel package
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def
-File: babel.def 2021/07/22 3.63 Babel common definitions
-\babel@savecnt=\count268
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count199
 \U@D=\dimen150
-\l@unhyphenated=\language83
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
-f)
+\l@babelnohyphens=\language87
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count269
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\engli
-sh.ldf
+\bbl@dirlevel=\count266
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language77). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language77). Reported on input line 108.
-))
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.s
-ty
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.s
-ty
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count270
+\etb@tempcnta=\count267
 )
-\csq@reset=\count271
-\csq@gtype=\count272
-\csq@glevel=\count273
-\csq@qlevel=\count274
-\csq@maxlvl=\count275
-\csq@tshold=\count276
-\csq@ltx@everypar=\toks30
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.d
-ef
+\csq@reset=\count268
+\csq@gtype=\count269
+\csq@glevel=\count270
+\csq@qlevel=\count271
+\csq@maxlvl=\count272
+\csq@tshold=\count273
+\csq@ltx@everypar=\toks29
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.c
-fg
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
@@ -216,13 +176,11 @@ Package csquotes Info: Redefining alias 'english' -> 'english/american'.
 Package csquotes Info: Allocating character ".
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend
--pdftex.def
-File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count277
-\l__pdf_internal_box=\box52
-) (main.aux)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count274
+\l__pdf_internal_box=\box49
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -239,171 +197,124 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
-f.mkii
+ (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
+\scratchcounter=\count275
 \scratchdimen=\dimen151
-\scratchbox=\box53
-\nofMPsegments=\count279
-\nofMParguments=\count280
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count281
+\scratchbox=\box50
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count278
 \MPscratchDim=\dimen152
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
-\everyMPtoPDFconversion=\toks32
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstop
-df-base.sty
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks31
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infware
-rr.sty
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfext.sty
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\kvde
-finekeys.sty
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoptions
-.sty
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.s
-ty
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetke
-ys.sty
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdftexcmds\pdftex
-cmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\epstopdf-s
-ys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package csquotes Info: Making character " active on input line 20.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
-
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
-
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 22
-.
-
-(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\uwasy.fd
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 22.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-[1
+) [1
 
-{C:/Users/Ethan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-<GRAPH1.png, id=17, 245.4771pt x 170.5572pt>
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+[3]
+<GRAPH1.png, id=21, 245.4771pt x 170.5572pt>
 File: GRAPH1.png Graphic file (type png)
 <use GRAPH1.png>
-Package pdftex.def Info: GRAPH1.png  used on input line 57.
+Package pdftex.def Info: GRAPH1.png  used on input line 60.
 (pdftex.def)             Requested size: 245.47649pt x 170.55678pt.
 
-Overfull \hbox (0.76158pt too wide) in paragraph at lines 59--74
-\OT1/cmr/m/n/12 We con-struct a row of 3 iden-ti-cal squares with $\OML/cmm/m/i
-t/12 A[]M[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 AM; M[]H[] \OT1/cmr/m/n/12 = \OM
-L/cmm/m/it/12 MH; etc$\OT1/cmr/m/n/12 ,
+Overfull \hbox (0.76158pt too wide) in paragraph at lines 62--77
+\OT1/cmr/m/n/12 We con-struct a row of 3 iden-ti-cal squares with $\OML/cmm/m/it/12 A[]M[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 AM; M[]H[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 MH; etc$\OT1/cmr/m/n/12 ,
  []
 
 
-Overfull \hbox (0.86299pt too wide) in paragraph at lines 59--74
-\U/msa/m/n/12 \\OML/cmm/m/it/12 DH[]A$\OT1/cmr/m/n/12 . Since the sum of the th
-ree an-gles in a tri-an-gle is $180[]$ and $\U/msa/m/n/12 \\OML/cmm/m/it/12 H[]
-B[]B \OT1/cmr/m/n/12 =
+Overfull \hbox (0.86299pt too wide) in paragraph at lines 62--77
+\U/msa/m/n/12 \\OML/cmm/m/it/12 DH[]A$\OT1/cmr/m/n/12 . Since the sum of the three an-gles in a tri-an-gle is $180[]$ and $\U/msa/m/n/12 \\OML/cmm/m/it/12 H[]B[]B \OT1/cmr/m/n/12 =
  []
 
-[3 <./GRAPH1.png>]
-<GRAPH2.png, id=24, 856.70062pt x 543.53062pt>
+[4 <./GRAPH1.png>]
+<GRAPH2.png, id=28, 856.70062pt x 543.53062pt>
 File: GRAPH2.png Graphic file (type png)
 <use GRAPH2.png>
-Package pdftex.def Info: GRAPH2.png  used on input line 78.
+Package pdftex.def Info: GRAPH2.png  used on input line 81.
 (pdftex.def)             Requested size: 284.52756pt x 180.51846pt.
- [4 <./GRAPH2.png>]
-<GRAPH3.png, id=30, 801.74532pt x 610.53094pt>
+ [5 <./GRAPH2.png>]
+<GRAPH3.png, id=34, 801.74532pt x 610.53094pt>
 File: GRAPH3.png Graphic file (type png)
 <use GRAPH3.png>
-Package pdftex.def Info: GRAPH3.png  used on input line 100.
+Package pdftex.def Info: GRAPH3.png  used on input line 103.
 (pdftex.def)             Requested size: 284.52756pt x 216.67012pt.
- [5 <./GRAPH3.png>]
-<GRAPH4.png, id=35, 916.1728pt x 399.74344pt>
+ [6 <./GRAPH3.png>]
+<GRAPH4.png, id=39, 916.1728pt x 399.74344pt>
 File: GRAPH4.png Graphic file (type png)
 <use GRAPH4.png>
-Package pdftex.def Info: GRAPH4.png  used on input line 119.
+Package pdftex.def Info: GRAPH4.png  used on input line 122.
 (pdftex.def)             Requested size: 284.52756pt x 124.14487pt.
- [6 <./GRAPH4.png>]
-<GRAPH6.png, id=40, 712.91344pt x 578.16pt>
+ [7 <./GRAPH4.png>]
+<GRAPH6.png, id=45, 712.91344pt x 578.16pt>
 File: GRAPH6.png Graphic file (type png)
 <use GRAPH6.png>
-Package pdftex.def Info: GRAPH6.png  used on input line 134.
+Package pdftex.def Info: GRAPH6.png  used on input line 137.
 (pdftex.def)             Requested size: 284.52756pt x 230.74821pt.
-
-[7 <./GRAPH6.png>] [8]
-<GRAPH5.png, id=49, 746.79pt x 338.01282pt>
+ [8 <./GRAPH6.png>] [9]
+<GRAPH5.png, id=53, 746.79pt x 338.01282pt>
 File: GRAPH5.png Graphic file (type png)
 <use GRAPH5.png>
-Package pdftex.def Info: GRAPH5.png  used on input line 159.
+Package pdftex.def Info: GRAPH5.png  used on input line 162.
 (pdftex.def)             Requested size: 284.52756pt x 128.78145pt.
- [9 <./GRAPH5.png>] (main.aux) ) 
+ [10 <./GRAPH5.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5128 strings out of 478893
- 77129 string characters out of 2849010
- 399967 words of memory out of 3000000
- 22914 multiletter control sequences out of 15000+600000
+ 4871 strings out of 478994
+ 68185 string characters out of 5858184
+ 390969 words of memory out of 5000000
+ 22271 multiletter control sequences out of 15000+600000
  413508 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,8n,70p,403b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ethan/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ethan/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
-s/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr17.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ethan/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ethan/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Ethan
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
-/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/wasy-type1/wasy10.pfb>
-Output written on main.pdf (9 pages, 225549 bytes).
+ 72i,8n,78p,400b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
+Output written on main.pdf (10 pages, 207486 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
