@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.23)  20 SEP 2021 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.23)  20 SEP 2021 19:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -284,12 +284,17 @@ File: GRAPH3.png Graphic file (type png)
 Package pdftex.def Info: GRAPH3.png  used on input line 103.
 (pdftex.def)             Requested size: 284.52756pt x 216.67012pt.
  [6 <./GRAPH3.png>]
-<GRAPH4.png, id=39, 916.1728pt x 399.74344pt>
-File: GRAPH4.png Graphic file (type png)
-<use GRAPH4.png>
-Package pdftex.def Info: GRAPH4.png  used on input line 122.
-(pdftex.def)             Requested size: 284.52756pt x 124.14487pt.
- [7 <./GRAPH4.png>]
+<GRAPH7.png, id=39, 508.90125pt x 212.795pt>
+File: GRAPH7.png Graphic file (type png)
+<use GRAPH7.png>
+Package pdftex.def Info: GRAPH7.png  used on input line 122.
+(pdftex.def)             Requested size: 284.52756pt x 118.9793pt.
+
+Overfull \hbox (15.01625pt too wide) in paragraph at lines 124--133
+[] \OT1/cmr/m/n/12 = [] = []$, and since $\OMS/cmsy/m/n/12 4\OML/cmm/m/it/12 DMH; \OMS/cmsy/m/n/12 4\OML/cmm/m/it/12 BMD$ \OT1/cmr/m/n/12 both have an-gle DMH, $\OMS/cmsy/m/n/12 4\OML/cmm/m/it/12 DMH \OMS/cmsy/m/n/12 ^^X
+ []
+
+[7 <./GRAPH7.png>]
 <GRAPH6.png, id=45, 712.91344pt x 578.16pt>
 File: GRAPH6.png Graphic file (type png)
 <use GRAPH6.png>
@@ -311,7 +316,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  72i,8n,78p,400b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on main.pdf (10 pages, 207486 bytes).
+Output written on main.pdf (10 pages, 263767 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream

@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{wasysym}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\degrees}{^{\circ}}
+
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 74, Week 5}
+\maketitle
+
+\section{Mon Dis, 1b}
+
+\subsection{}
+
+
+\subsection{}
+
+$$\prod^n_i=2 (1-\frac{1}{n^2})$$
+We examine $1-1/k^2$ and factor it into $\frac{k^2-1}{k^2} = \frac{(k+1)(k-1)}{k^2}$. Since k is incrementing by 1 in our series, we can cancle each term out. We can expand our series into
+$$\frac{1\times 3}{2^2} \frac{2 \times 4}{3^3} ... \frac{(n-1)(n+1)}{n^2}$$
+$$= \frac{1}{2} \frac{n+1}{n} = \frac{n+1}{2n}$$
+
+\end{document}
