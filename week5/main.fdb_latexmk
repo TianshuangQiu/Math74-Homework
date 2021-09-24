@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1632335661 "main.tex" "main.pdf" "main" 1632335662
+["pdflatex"] 1632508206 "main.tex" "main.pdf" "main" 1632508207
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -33,6 +33,8 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb" 1579560704 33599 0bed01d43ee0675cf5ec1221acad6641 ""
   "/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def" 1616621270 118719 e672239d75d9419ba29850a1b391bd00 ""
@@ -80,10 +82,11 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1619229006 2724749 9f82f229435ef5504c426bb3feac99a2 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "GRAPH1.png" 1632335645 1412 a9ad9add4355c40b8e694e6595107df5 ""
-  "main.aux" 1632335662 595 4534a8e4748052decf7bc25c0f19c384 "pdflatex"
-  "main.tex" 1632335660 1478 16ac993be8bb5dfb302dad1945f388f6 ""
+  "GRAPH1.png" 1632505621 13426 470f9d30eebf0987f4823c65b49071a2 ""
+  "GRAPH2.png" 1632506322 13610 a060eca988bc4c808d1a7f5e277607ed ""
+  "main.aux" 1632508207 1078 142ad916f3a1fa4e4744fc6151066eb5 "pdflatex"
+  "main.tex" 1632508202 3834 02fc55f7a998535beecd0f1ca50f8805 ""
   (generated)
+  "main.pdf"
   "main.log"
   "main.aux"
-  "main.pdf"

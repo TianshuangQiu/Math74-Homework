@@ -30,13 +30,32 @@ Let the statement: "There is at most one parallel line to a given line $l$ throu
 \begin{figure}[h]
     \includegraphics[width = 100mm]{GRAPH1.png}
 \end{figure}
-We first prove that $A \implies B$. Let $a \parallel b$, and $c$ intersects $a$ at point $Q$. Assume that statement $B$ is false so $c$ does not intersect $b$. Since it does not intersect and $b$ and $c$ are coplanar, we have $b \parallel c$. $a \parallel b$, and $a, c$ interesect at $Q$. However by $A$ we know that there can be at most one line parallel to $b$ at point $Q$. \lightning. Our assumption is incorrect, $A \implies B$
-
 \newline
-Then we show that $B \implies A$. Let $a \parallel b$, and $c$ intersects $b$ at point $P$. Assume that $A$ is incorrect, so we construct $a'$ to also be parallel to $b$. We know that $b$ must intersect $a$ by $B$. We name this point $P$. Then since we have assumed that $a \parallel a'$, our line must also intersect $a'$ at $P$.
+We first prove that $A \implies B$. Let $a \parallel b$, and $c$ intersects $a$ at point $Q$. Assume that statement $B$ is false so $c$ does not intersect $b$. Since it does not intersect and $b$ and $c$ are coplanar, we have $b \parallel c$. $a \parallel b$, and $a, c$ interesect at $Q$. However by $A$ we know that there can be at most one line parallel to $b$ at point $Q$. \lightning. Our assumption is incorrect, $A \implies B$
+\newline
+Then we show that $B \implies A$. Let $a \parallel b$, and $c$ intersects $b$ at point $P$. Assume that $A$ is incorrect, so we construct $a'$ to also be parallel to $b$. We know that $b$ must intersect $a$ by $B$. We name this point $P$. Then since we have assumed that $a \parallel a'$, our line must also intersect $a'$ at $P$. Consider $\angle SPT, \angle RQT$, and they must be equal because they $a \parallel b$, and corresponding angles are equal when the two lines are parallel. By the same logic we have $\angle SPT = \angle R'QT$.
+\newline
+Using the transitive property we can get $\angle RQT = \angle R'QT$. However this cannot be true because if the two angles are equal, $a, a'$ overlap and they become the same line. \lightning
+\newline
+Our assumption is incrroect and $B \implies A$. Therefore $A \iff B$. Q.E.D.
 
 \section{Mon Lec, 3a}
+\begin{figure}[h]
+    \includegraphics[width = 100mm]{GRAPH2.png}
+\end{figure}
+\subsection{Bisector $\implies$ equal distance from legs}
+Let $OC$ bisect $\angle AOB$, choose $A, B$ such that $CA \perp OA, CB \perp OB$
+\newline
+Consider $\triangle AOC, BOC$, since $CA \perp OA, CB \perp OB$, we can write the following using the inner sum of triangles:
+$$\angle ACO + \angle COA + 90 \degrees = 190 \degrees$$
+$$\angle BCO + \angle COB + 90 \degrees = 190 \degrees$$
+Since $OC$ bisect $\angle AOB$, we have $\angle COA = \angle COB$, so $\angle ACO = \angle BCO$. Finally, since $\triangle AOC, BOC$ share $OC$, we have $\triangle AOC \cong \triangle BOC$ (ASA congruency). Therefore $CA = CB$. Q.E.D.
 
+\subsection{Equal distance from legs $\implies$ angle bisection}
+Let $OC$ be a ray from $O$, choose point C and draw $CA \perp OA, CB \perp OB$. $AC = BC$
+\newline
+Consider $\triangle AOC, BOC$, since $CA \perp OA, CB \perp OB$, they are both right triangles. Using $AC = BC$, we have $\triangle AOC \cong \triangle BOC$ (HL right triangle congruency). Therefore $\angle COA = \angle COB$.
+Q.E.D.
 
 \section{Mon Dis, 1b}
 
