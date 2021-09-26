@@ -56,17 +56,54 @@ Let $OC$ be a ray from $O$, choose point C and draw $CA \perp OA, CB \perp OB$. 
 \newline
 Consider $\triangle AOC, BOC$, since $CA \perp OA, CB \perp OB$, they are both right triangles. Using $AC = BC$, we have $\triangle AOC \cong \triangle BOC$ (HL right triangle congruency). Therefore $\angle COA = \angle COB$.
 Q.E.D.
-
-\section{Mon Dis, 1b}
-
-\subsection{}
+\newpage
 
 
-\subsection{}
+\section{Mon Dis, 1b (second bullet)}
+$$\prod^{n}_{1}=(1-\frac{1}{n^2})$$
+We examine $1-1/k^2$ and factor it into $\frac{k^2-1}{k^2} = \frac{(k+1)(k-1)}{k^2}$. Since k is incrementing by 1 in our series, we can cancel the majority of terms out since it is telescoping. We can expand our series into
+$$\frac{1\times 3}{2^2} \times \frac{2 \times 4}{3^2} \times ...\times \frac{(n-1)(n+1)}{n^2}$$
+$$= \frac{1}{2} \times \frac{n+1}{n} = \frac{n+1}{2n}$$
 
-$$\prod^n_i=2 (1-\frac{1}{n^2})$$
-We examine $1-1/k^2$ and factor it into $\frac{k^2-1}{k^2} = \frac{(k+1)(k-1)}{k^2}$. Since k is incrementing by 1 in our series, we can cancle each term out. We can expand our series into
-$$\frac{1\times 3}{2^2} \frac{2 \times 4}{3^3} ... \frac{(n-1)(n+1)}{n^2}$$
-$$= \frac{1}{2} \frac{n+1}{n} = \frac{n+1}{2n}$$
+\section{Mon Dis, 1d}
+(Assuming that )
+\subsection{$4^n + 15n -1$}
+The largest common divisor for these expressions is $1$.
 
+\subsection{$n^3 - n$}
+The largest common divisor for these expressions is $6$.
+
+\subsection{$2^{n+2} + 7n$}
+The largest common divisor for these expressions is $5$.
+\newpage
+
+
+\section{Wed Lec, 3a}
+Base case: $n = 1, 1 = 1^2$. Base case holds.
+\newline
+Inductive hypothesis: assume that for some $n \geq 1$, $1+ 3 + 5 + ... + (2n-1) = n^2$.
+\newline
+Inductive proof: consider $n+1$, $1+ 3 + 5 + ... + (2n-1) + (2n+1)$, using our inductive hypothesis, we can susbsitute everything but the last term: $n^2 + 2n + 1 = (n+1)^2$
+\newline
+Thus we have proven the inductive step. Q.E.D.
+
+\section{Wed Lec, 3c}
+Base case: $n = 1, 1/(4 \times 1^2 - 1) = 1/3 = 1/(2 \times 1 + 1)$. Base case holds.
+\newline
+Inductive hypothesis: assume that for some $n \geq 1$, $\frac{1}{4 \times 1^2 - 1} + \frac{1}{4 \times 2^2 - 1} + ... + \frac{1}{4 \times n^2 - 1} = \frac{n}{2n+1}$.
+\newline
+Inductive proof: consider $n+1$, $$\frac{1}{4 \times 1^2 - 1} + \frac{1}{4 \times 2^2 - 1} + ... + \frac{1}{4 \times n^2 - 1} + \frac{1}{4 \times (n+1)^2 - 1}$$
+Using our inductive hypothesis, we can susbsitute everything but the last term: $$\frac{n}{2n+1} + \frac{1}{4(n+1)^2 - 1} = \frac{n (4(n+1)^2-1)}{(2n+1)(4(n+1)^2-1)} + \frac{2n+1}{(2n+1)(4(n+1)^2 - 1)}$$
+$$=\frac{n(4n^2+3+8n) + 2n +1}{(2n+1)(4n^2+3+8n)} = \frac{4n^3+3n+8n^2+2n+1}{8n^3+6n+16n^2+4n^2+3+8n}=\frac{4n^3+8n^2+5n+1}{8n^3+20n^2+14n+3}$$
+We apply long division by $2n+3$ to the denominator.
+$$\frac{8n^3+20n^2+14n+3}{2n+3} = 4n^2 + 4n + 1$$
+Now we apply long division by $n+1$ to the numerator.
+$$\frac{4n^3+8n^2+5n+1}{n+1} =  4n^2 + 4n + 1$$
+Therefore we can factor the expression into
+$$\frac{(n+1)(4n^2 + 4n + 1)}{(2n+3)(4n^2 + 4n + 1)} = \frac{n+1}{2n+3}$$
+\newline
+Thus we have proven the inductive step. Q.E.D.
+
+\section{Wed Lec, 6b}
+We claim that
 \end{document}
