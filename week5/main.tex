@@ -4,6 +4,8 @@
 \usepackage{wasysym}
 \usepackage[utf8]{inputenc} %useful to type directly diacritic characters
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage [english]{babel}
 \usepackage [autostyle, english = american]{csquotes}
 \MakeOuterQuote{"}
@@ -105,5 +107,67 @@ $$\frac{(n+1)(4n^2 + 4n + 1)}{(2n+3)(4n^2 + 4n + 1)} = \frac{n+1}{2n+3}$$
 Thus we have proven the inductive step. Q.E.D.
 
 \section{Wed Lec, 6b}
-We claim that
+We claim that we can divide a single square into all $n \in \N, n \geq 6$ squares.
+\newline
+First we define a process of "opening a window": by connecting midpoints of sides that are across each other, we draw a cross on a square, dividing it into 4 smaller squares. The total gain of this process is $4-1=3$ squares.
+\newline
+We split the cases into the following: $n = 3k, n = 3k+1, n = 3k+2 (k \geq 2)$, and we will prove by induction each case.
+\newline
+Base cases: $n = 6, 7, 8$, we can divide it up like the following:
+\newline
+\begin{figure}[h]
+     \centering
+     \begin{subfigure}[b]{0.3\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{GRAPH5}
+         \caption{$n=6$}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.3\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{GRAPH4}
+         \caption{$n=7$}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.3\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{GRAPH3}
+         \caption{$n=8$}
+         \label{fig:five over x}
+     \end{subfigure}
+\end{figure}
+\newline
+Inductive case: Assume that for some $k \geq 2$, we can divide a square into $3k, 3k+1, 3k+2$ smaller squares, then in order to get $3(k+1)$ squares, we can simply "open a window" in any of the $3k$ sub squares. This yields a total of $3k+3 = 3(k+1)$ squares.
+\newline
+We can prove the cases for $3(k+1)+1, 3(k+1)+2$ by also "opening a window" using a subsquare in squares that has been divided into $3k+1$ and $3k+2$ parts, yielding $3k+4$ and $3k+5$ squares.
+\newline
+Thus we have proven the inductive case. Q.E.D.
+\newpage
+
+
+\section{Wed Dis, 3a}
+Base case: $n=1$, $1^3 = (1\times2/2)^2 = 1$, base case holds.
+\newline
+Inductive case: Assume that $$1^3 + 2^3 + ... + n^3 = (\frac{n(n+1)}{2})^2$$
+for some $n \geq 1$, consider
+$1^3 + 2^3 + ... + n^3 + (n+1)^3$, we can apply our inductive hypothesis to get
+$$ = (\frac{n(n+1)}{2})^2 + (n+1)^3 = \frac{n^2(n+1)^2}{4} + (n+1)^3 + \frac{n^2(n+1)^2+4(n+1)^3}{4}$$
+$$\frac{(n+1)^2(n^2+4(n+1))}{4} = \frac{(n+1)^2(n^2+4n+4)}{4} = (\frac{(n+1)^2(n+2)^2}{2^2})$$
+The expression above is exactly what we would expect if we subsitute $(n+1)$ for $n$ in $(\frac{n(n+1)}{2})^2$. Therefore we have proven the inductive case. Q.E.D.
+
+\section{Wed Dis, 4a}
+Base case: $n = 0, 1 = (x-1)/(x-1) = 1$ since $x \neq 1$. Base case holds.
+\newline
+Inductive case: Assume that the statement is true for some $n \geq 0$. Consider $n+1$, we have: $1 + x + x^2 + ... + x^n + x^{n+1}$. Now we apply our inductive hypothesis:
+$$= \frac{x^{n+1}-1}{x-1} + x^{n+1} = \frac{x^{n+1}-1+x^{n+1}(x-1)}{x-1} = \frac{x^{n+1}-1+x^{n+2}-x^{n+1}}{x-1} = \frac{x^{n+2}-1}{x-1}$$
+The expression above is exactly what we would expect if we subsitute $(n+1)$ for $n$ in $\frac{x^{n+1}-1}{x-1}$. Thus we have proven the inductive case. Q.E.D.
+\newpage
+
+
+\section{Fri Lec, 2b}
+
+\section{Fri Lec, 3a}
+
+\section{Fri Lec, 3b}
+
 \end{document}

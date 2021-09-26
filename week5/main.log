@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.3)  25 SEP 2021 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.3)  25 SEP 2021 18:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -150,20 +150,44 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 )
+(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.st
+y
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count268
+\c@continuedfloat=\count269
+)
+(C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption.
+sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count270
+\c@subtable=\count271
+)
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
 Package: babel 2021/07/22 3.63 The Babel package
 
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def
 File: babel.def 2021/07/22 3.63 Babel common definitions
-\babel@savecnt=\count268
-\U@D=\dimen150
+\babel@savecnt=\count272
+\U@D=\dimen157
 \l@unhyphenated=\language83
 
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
 f)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count269
+\bbl@dirlevel=\count273
 
 *************************************
 * Local config file bblopts.cfg used
@@ -189,14 +213,14 @@ Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.s
 ty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count270
+\etb@tempcnta=\count274
 )
-\csq@reset=\count271
-\csq@gtype=\count272
-\csq@glevel=\count273
-\csq@qlevel=\count274
-\csq@maxlvl=\count275
-\csq@tshold=\count276
+\csq@reset=\count275
+\csq@gtype=\count276
+\csq@glevel=\count277
+\csq@qlevel=\count278
+\csq@maxlvl=\count279
+\csq@tshold=\count280
 \csq@ltx@everypar=\toks30
 
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.d
@@ -220,39 +244,39 @@ Package csquotes Info: ... found 'babel' package.
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend
 -pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count277
+\l__color_backend_stack_int=\count281
 \l__pdf_internal_box=\box52
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
-\scratchdimen=\dimen151
+\scratchcounter=\count282
+\scratchdimen=\dimen158
 \scratchbox=\box53
-\nofMPsegments=\count279
-\nofMParguments=\count280
+\nofMPsegments=\count283
+\nofMParguments=\count284
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count281
-\MPscratchDim=\dimen152
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen159
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
 \everyMPtoPDFconversion=\toks32
 )
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstop
@@ -305,20 +329,22 @@ G,.JBIG2,.JB2,.eps]
 ys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package csquotes Info: Making character " active on input line 20.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package csquotes Info: Making character " active on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 
 
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
 
 
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 22
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 24
 .
 
 (C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\uwasy.fd
@@ -327,7 +353,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 <GRAPH1.png, id=1, 158.0304pt x 122.859pt>
 File: GRAPH1.png Graphic file (type png)
 <use GRAPH1.png>
-Package pdftex.def Info: GRAPH1.png  used on input line 31.
+Package pdftex.def Info: GRAPH1.png  used on input line 33.
 (pdftex.def)             Requested size: 284.52756pt x 221.24347pt.
 
 [1
@@ -337,47 +363,64 @@ g>]
 <GRAPH2.png, id=13, 155.8623pt x 103.587pt>
 File: GRAPH2.png Graphic file (type png)
 <use GRAPH2.png>
-Package pdftex.def Info: GRAPH2.png  used on input line 44.
+Package pdftex.def Info: GRAPH2.png  used on input line 46.
 (pdftex.def)             Requested size: 284.52756pt x 189.11978pt.
  [2 <./GRAPH2.png>] [3] [4]
-Overfull \hbox (7.61032pt too wide) detected at line 96
-[] \OT1/cmr/m/n/12 + [] = [] + []
- []
-
-
-Overfull \hbox (62.5011pt too wide) detected at line 97
+Overfull \hbox (62.5011pt too wide) detected at line 99
 \OT1/cmr/m/n/12 = [] = [] = []
  []
 
-[5] [6] (main.aux) ) 
+<GRAPH5.png, id=33, 72.27pt x 72.0291pt>
+File: GRAPH5.png Graphic file (type png)
+<use GRAPH5.png>
+Package pdftex.def Info: GRAPH5.png  used on input line 122.
+(pdftex.def)             Requested size: 117.00119pt x 116.61722pt.
+<GRAPH4.png, id=34, 72.27pt x 72.27pt>
+File: GRAPH4.png Graphic file (type png)
+<use GRAPH4.png>
+Package pdftex.def Info: GRAPH4.png  used on input line 128.
+(pdftex.def)             Requested size: 117.00119pt x 117.00725pt.
+<GRAPH3.png, id=35, 73.2336pt x 72.9927pt>
+File: GRAPH3.png Graphic file (type png)
+<use GRAPH3.png>
+Package pdftex.def Info: GRAPH3.png  used on input line 134.
+(pdftex.def)             Requested size: 117.00119pt x 116.62695pt.
+[5] [6 <./GRAPH5.png> <./GRAPH4.png> <./GRAPH3.png>]
+Overfull \hbox (36.32736pt too wide) detected at line 162
+\OT1/cmr/m/n/12 = [] + \OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 = [] = [] = []
+ []
+
+[7] [8] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 5096 strings out of 478893
- 76660 string characters out of 2849010
- 402967 words of memory out of 3000000
- 22885 multiletter control sequences out of 15000+600000
- 413201 words of font info for 66 fonts, out of 8000000 for 9000
+ 6441 strings out of 478893
+ 102586 string characters out of 2849010
+ 430804 words of memory out of 3000000
+ 24222 multiletter control sequences out of 15000+600000
+ 414968 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,8n,70p,554b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,9n,70p,554b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ethan/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ethan/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
-rs/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8
+rs/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6
 .pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ethan/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Ethan/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ethan/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy8.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/symbols/msam10.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/wasy-type1/wasy10.pfb>
-Output written on main.pdf (6 pages, 171963 bytes).
+nts/cm/cmmi8.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ethan/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ethan/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Ethan
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb><C:/Users/Ethan/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Ethan/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/wasy-type1/wasy10.pfb>
+Output written on main.pdf (8 pages, 199801 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
