@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1632621203 "main.tex" "main.pdf" "main" 1632621204
+["pdflatex"] 1632622193 "main.tex" "main.pdf" "main" 1632622194
   "C:/Users/Ethan/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1630654524 10391628 6e8eddc61a48ac3ce7a64b02d2ac5b1c ""
   "C:/Users/Ethan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1632098636 335515 8350a376910fb41ff1bea81614b38322 ""
   "C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
@@ -94,9 +94,9 @@
   "GRAPH3.png" 1632615744 2772 475804e825b48fedabe7942de6d15f5b ""
   "GRAPH4.png" 1632615710 2569 d02561b39bf0bd572c9a63bc09213361 ""
   "GRAPH5.png" 1632615775 2410 16a82da5ecd51b957245133e3584e092 ""
-  "main.aux" 1632621204 2257 9a242ed26e0ff06a742ff05cad123909 "pdflatex"
-  "main.tex" 1632621199 10273 556151739bc511860b40490037b71dcd ""
+  "main.aux" 1632622194 2257 14076cf19be2c7efb1d56a2475126c7b "pdflatex"
+  "main.tex" 1632622177 10925 ea88703adf0c66c504abbfbc8a92ea91 ""
   (generated)
-  "main.aux"
   "main.pdf"
+  "main.aux"
   "main.log"
