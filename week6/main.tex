@@ -35,12 +35,17 @@ Thus we have proven the inductive case. Q.E.D.
 Base case: $n=0, m=0, f_n=1, f_m=1, f_{n+m+1}=2$, base case holds.
 \newline
 For any $n, m \in \N$, assume that the statement is true for all $n'\leq n, m' \leq m$. Using our direct formula we have
-$$f_{n+1}=\frac{1}{\sqrt 5} (\phi^n - \bar \phi^n)$$
-$m+1$ has a similar logic. Now we can expand $f_nf_m+f_{n+1}f_{m+1}$ to
-$$\frac{1}{5}(\phi^n - \bar \phi^n)(\phi^m - \bar \phi^m) + \frac{1}{5}(\phi^{n+1} - \bar \phi^{n+1})(\phi^{m+1} - \bar \phi^{m+1})$$
-$$\frac{1}{5}(\phi^{m+n} - \phi^n \bar\phi^m - \bar\phi^n\phi^m + \bar \phi^{m+n}) + \frac{1}{5}(\phi^{m+n+2} - \phi^{n+1} \bar\phi^{m+1} - \bar\phi^{n+1}\phi^{m+1} + \bar \phi^{m+n+2})$$
-$$\frac{1}{5}(\phi^{m+n} - (-1)^{|m-n|}\phi^n \bar\phi^m - \bar\phi^n\phi^m + \bar \phi^{m+n})$$
+$$f_{n+1}=\frac{1}{\sqrt 5} (\phi^{n+1} - \bar \phi^{n+1})$$
+$m+1$ has a similar logic. Now consider $n+1$ and $f_{n+m+2}$.
+\newline
+Using the direct formula, we know that $f_{n+m+2}=1/\sqrt5 (\phi^{n+m+2} - \bar \phi^{n+m+2})$
+$$\frac{f_{n+m+2}}{f_{n+m+1}} = \frac{\phi^{n+m+2} - \bar \phi^{n+m+2}}{\phi^{n+m+1} - \bar \phi^{n+m+1}}$$
+\newline
+Now we take $(f_{n+1}f_m+f_{n+2}f_{m+1})/(f_{n}f_{m}+f_{n+1}f_{m+1})$
+$$=\frac{(\phi^{n+1}-\bar\phi^{n+1})(\phi^{m}-\bar\phi^{m})+(\phi^{n+1}-\bar\phi^{n+2})(\phi^{n+1}-\bar\phi^{m+1})}{(\phi^{n}-\bar\phi^{n})(\phi^{m}-\bar\phi^{m})+(\phi^{n+1}-\bar\phi^{n+1})(\phi^{m+1}-\bar\phi^{m+1})}$$
+We can expand and cancel the terms through long division, finally leaving $$\frac{\phi^{n+m+2} - \bar \phi^{n+m+2}}{\phi^{n+m+1} - \bar \phi^{n+m+1}}$$, which is equal to the above fraction. Since $f_{n+m+1}=f_nf_m+f_{n+1}f_{m+1}$ by inductive hypothesis, we have now proven the inductive step. Q.E.D.
 
+\section{Mon Lec, 4a}
 
 \section{Mon Dis, 6}
 First we claim that $n^2-(n+1)^2-(n+2)^2+(n+3)^2=4$
