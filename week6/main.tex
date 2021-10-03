@@ -23,6 +23,25 @@
 \title{Math 74, Week 6}
 \maketitle
 
+\section{Mon Lec, 1a}
+Base case: $n=1, n=2, a_1=3, a_2=5$, base cases hold.
+\newline
+Assume that for some $n \in \N$, all $m \in \N 1, 1 \leq m \leq n$ satisfies this identity, we have
+$$a_{n+1}=3a_n-2a_{n-1}=3(2^n+1)-2(2^{n-1}+1)=3\times 2^n+3-2\times 2^{n-1}-2$$
+$$=2^{n-1}(6-2)+1=2^{n-1}(2^2)+1=2^{n+1}+1$$
+Thus we have proven the inductive case. Q.E.D.
+
+\section{Mon Lec, 3c}
+Base case: $n=0, m=0, f_n=1, f_m=1, f_{n+m+1}=2$, base case holds.
+\newline
+For any $n, m \in \N$, assume that the statement is true for all $n'\leq n, m' \leq m$. Using our direct formula we have
+$$f_{n+1}=\frac{1}{\sqrt 5} (\phi^n - \bar \phi^n)$$
+$m+1$ has a similar logic. Now we can expand $f_nf_m+f_{n+1}f_{m+1}$ to
+$$\frac{1}{5}(\phi^n - \bar \phi^n)(\phi^m - \bar \phi^m) + \frac{1}{5}(\phi^{n+1} - \bar \phi^{n+1})(\phi^{m+1} - \bar \phi^{m+1})$$
+$$\frac{1}{5}(\phi^{m+n} - \phi^n \bar\phi^m - \bar\phi^n\phi^m + \bar \phi^{m+n}) + \frac{1}{5}(\phi^{m+n+2} - \phi^{n+1} \bar\phi^{m+1} - \bar\phi^{n+1}\phi^{m+1} + \bar \phi^{m+n+2})$$
+$$\frac{1}{5}(\phi^{m+n} - (-1)^{|m-n|}\phi^n \bar\phi^m - \bar\phi^n\phi^m + \bar \phi^{m+n})$$
+
+
 \section{Mon Dis, 6}
 First we claim that $n^2-(n+1)^2-(n+2)^2+(n+3)^2=4$
 \end{document}
