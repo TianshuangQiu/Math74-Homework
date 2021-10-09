@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{wasysym}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\degrees}{^{\circ}}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 74, Week 6}
+\maketitle
+
+\section{Mon Lec, 4c}
+Non of the number repeating means that it is a rearrangement of the set of remainders $\{1,2,...6\}$. We first show that if $a \not \equiv b \bmod 7, \text{then} 4a \not \equiv 4b \bmod 7$
+\newline
+Proof:
+Suppose for contradiction that $4a \equiv 4b \bmod 7$, then we have $7 \mid 4(a-b)$. Since $\gcd(4,7)=1$, $7 \mid a-b$, $a \equiv b \bmod 7$, \lightning. We have a contradiction, therefore $4a \not \equiv 4b \bmod 7$
+\newline
+Let $a=1, b = 2,3,4,5,6$. We can see that $(4 \times 1)...(4 \times 6) \equiv 6! \bmod 7$. Since 6! is coprime with 7, we can divide it, leaving us with
+$$4^6 \equiv 1 \bmod 7$$
+
+\section{Mon Lec, 5a}
+Using the formula
+$$\phi(n) = n \prod _{p \mid n}(1-\frac{1}{p})$$
+$$\phi(10) = 10(1-\frac{1}{2})(1-\frac{1}{5}) = 4$$
+
+\section{Mon Lec, 6}
+We simplify
+$$\frac{x+2k}{3} \leq x+1$$
+$$x+2k \leq 3x+3$$
+$$2x \geq 2k-3$$
+$$x \geq \frac{2k-3}{2}$$
+So $(2k-3)/2 = 3, 2k = 9, k = 4.5$
+\newpage
+
+
+\section{Mon Dis, 2b}
+$$17 ^ {1707} \bmod 11 \equiv 6^{1707}\bmod 11$$
+By fermats little theorem $6^10 \equiv 1 \bmod 11$
+$$6^1707 \equiv (6^10)^170 \times 6^7 \bmod 11 \equiv 6^7 \bmod 11$$
+Now we start raising 6 to higher powers.
+$$6^2 \equiv 3 \bmod 11$$
+$$6^4 \equiv 9 \bmod 11$$
+$$6^7 \equiv 3\times9\times6 \bmod 11 \equiv 8 \bmod 11$$
+So $17 ^ {1707} \equiv 8 \bmod 11$
+
+\section{Mon Dis, 4c}
+
+
+
+\end{document}
