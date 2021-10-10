@@ -509,6 +509,12 @@ INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\wasy\was
 INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\wasy\wasy6.tfm
 OUTPUT main.pdf
 INPUT C:\Users\Ethan\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\wasy\wasy10.tfm
 INPUT main.aux
 INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
@@ -528,5 +534,7 @@ INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfon
 INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\wasy-type1\wasy10.pfb
 INPUT C:\Users\Ethan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\wasy-type1\wasy10.pfb

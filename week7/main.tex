@@ -61,7 +61,70 @@ $$6^7 \equiv 3\times9\times6 \bmod 11 \equiv 8 \bmod 11$$
 So $17 ^ {1707} \equiv 8 \bmod 11$
 
 \section{Mon Dis, 4c}
+We first compute $\phi(100)$
+$$\phi(100)=100(1-\frac{1}{2})(1-\frac{1}{5}) = 40$$
+Since $\gcd(43,100)=1$, we can apply Euler Totient theorem.
+$$43^{1763} \equiv (43^{40}){44} \times 43^3 \equiv 43^3 \bmod 100$$
+$43^2 = 1849 \equiv 49 \bmod 100$, so $43^3 \equiv 49 \times 43 \bmod 100$
+Finally we get $43^3 \equiv 7 \bmod 100$
+\newpage
 
+
+\section{Wed Lec, 2a}
+We factor the expression into $n(n^2-1)=n(n+1)(n-1)$
+\newline
+Integers that are divisible by 2 are spaced such that there is one every other, and those divisible by 3 are spaced such that there is one every third. Here we have a product of 3 consecutive integers, so there must be at least 1 integer between $n-1, n, n+1$ that is divisible by 2, and at least 1 that is divisible by 3. Since $6=2 \times 3$, we have $6 \mid n(n+1)(n+2)$.
+\newline
+Thus we have proven that $6 \mid n^3-n$
+\newline
+$\blacksquare$
+
+\section{Wed Lec, $2021^{4042} \bmod 100$}
+First we since 2021 is odd and does not end in 5 or 0, $\gcd(2021,100)=1$, so we can apply the Euler Totient Theorem.
+$$\phi(100)=100(1-\frac{1}{2})(1-\frac{1}{5}) = 40$$
+$$2021^{4042} \equiv (2021^{40})101 \times 2021^2 \equiv 2021^2 \equiv 21^2 \bmod 100$$
+Now we can simply calculate the square to be $441 \equiv 41 \bmod 100$
+\newpage
+
+
+\section{Wed Dis 1a}
+First we show that $17n^2+1 \not \equiv 0 \bmod 4$
+\newline
+$17n^2+1 \equiv n^2+1 \bmod 4$ Now we assume that there exists some $n \geq 1$ that sataisfies this equation. Then we have $n^2+1 \equiv 0 \bmod 4$
+$$n^2 \equiv 3 \bmod 4$$
+Now we consider all the possibilities of $n \mod 4$: $1^2 \equiv 1, 2^2 \equiv 0, 3^3 \equiv 1, 4^2 \equiv 0 (\bmod 5)$. Therefore there is no way $n$ that sataisfies $n^2\equiv 3$. Our assumption is incorrect and $4 \not \mid 17n^2+1$
+\newline
+We repeat the proof for $\bmod 5$
+\newline
+$17n^2+1 \equiv 2n^2+1 \bmod 5$ We assume that there exists some $n \geq 1$ that sataisfies this equation. Then we have $2n^2+1 \equiv 0 \bmod 5$
+$$2n^2 \equiv 4 \bmod 5$$
+$$n^2 \equiv 2 \bmod 5$$
+We can examine the possible squares: $1^2 \equiv 1, 2^2 \equiv 4, 3^2 \equiv 4, 4^2 \equiv 1 (\bmod 5)$ Once again there is no possible way for $n^2$ to be 2. Our assumption is incorrect and $5 \not \mid 17n^2+1$
+\newline
+Thus we have proven both parts of the hypothesis.
+$\blacksquare$
+
+\section{Wed Dis, 5}
+$n \equiv$ the sum of its digits modulo 9 because when in decimal, we can express $n = \sum 10^kd$, where d is the digit at the kth place. We know that $10^k \equiv 1(\bmod 9)$, so each digit is equivalent to being multiplied by 1, which is just itself.
+\newline
+For this problem we take the modulo of $9$, which as shown above is the sum of all the digits. We can then find which one is missing based on the fact that the sum is $45$.
+\newline
+By Fermat's Little Theorem $2^8 \equiv 1 \bmod 9$
+$$2^29 \equiv (2^{8})^3 \times 2^5 \equiv 2^5 \bmod 9$$
+We can then compute the rest by brute force: $2^5 = 32 \equiv 5 \bmod 9$
+\newline
+Since the sum is $45 \equiv 0 \bmod 9$, having a remainder of $5$ means that we are missing its complement: $9-5=4$.
+\newline
+Therefore $2^29$ is missing the number $4$.
+\newpage
+
+
+\section{Fri Lec, 2c}
+In this process we can see that the invariant is the oddity of the 1's. Since $(0,0)
+\to 0, (1,1)\to 0, (2,2)\to 0, (0,1) \to 1, (0,2)\to 1, (1,2)\to 1$, we can see that either we remove
+\section{Fri Lec, 3c}
+
+\section{Fri Lec, 4}
 
 
 \end{document}
