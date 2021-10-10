@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1633813704 "main.tex" "main.pdf" "main" 1633813706
+["pdflatex"] 1633838559 "main.tex" "main.pdf" "main" 1633838560
   "C:/Users/Ethan/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1630654524 10391628 6e8eddc61a48ac3ce7a64b02d2ac5b1c ""
   "C:/Users/Ethan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1632098636 335515 8350a376910fb41ff1bea81614b38322 ""
   "C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
@@ -86,9 +86,9 @@
   "C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/calc.sty" 1622550326 10214 00ce62e730d0cfe22b35e8f1c84949c7 ""
   "C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/wasysym/uwasy.fd" 1579696602 2296 c50bf1089c7a46a0d4e9a119e980be4e ""
   "C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/wasysym/wasysym.sty" 1579696602 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
-  "main.aux" 1633813705 1138 e7dffe7a421783e0ac69c7181e069a7f "pdflatex"
-  "main.tex" 1633813702 4564 2af6c57e805ab086f47af5b3c4a63687 ""
+  "main.aux" 1633838560 1921 8b6f171c8760c3cc9acd2a3982c55eb6 "pdflatex"
+  "main.tex" 1633838554 8700 13855eb5ed9f0d3d94360395cd09bb2b ""
   (generated)
-  "main.aux"
-  "main.log"
   "main.pdf"
+  "main.log"
+  "main.aux"

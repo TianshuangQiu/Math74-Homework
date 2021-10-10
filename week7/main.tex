@@ -23,7 +23,7 @@
 
 \author{Tianshuang (Ethan) Qiu}
 \begin{document}
-\title{Math 74, Week 6}
+\title{Math 74, Week 7}
 \maketitle
 
 \section{Mon Lec, 4c}
@@ -52,8 +52,8 @@ So $(2k-3)/2 = 3, 2k = 9, k = 4.5$
 
 \section{Mon Dis, 2b}
 $$17 ^ {1707} \bmod 11 \equiv 6^{1707}\bmod 11$$
-By fermats little theorem $6^10 \equiv 1 \bmod 11$
-$$6^1707 \equiv (6^10)^170 \times 6^7 \bmod 11 \equiv 6^7 \bmod 11$$
+By fermats little theorem $6^{10} \equiv 1 \bmod 11$
+$$6^{1707} \equiv (6^{10})^{170} \times 6^7 \bmod 11 \equiv 6^7 \bmod 11$$
 Now we start raising 6 to higher powers.
 $$6^2 \equiv 3 \bmod 11$$
 $$6^4 \equiv 9 \bmod 11$$
@@ -120,11 +120,48 @@ Therefore $2^29$ is missing the number $4$.
 
 
 \section{Fri Lec, 2c}
-In this process we can see that the invariant is the oddity of the 1's. Since $(0,0)
-\to 0, (1,1)\to 0, (2,2)\to 0, (0,1) \to 1, (0,2)\to 1, (1,2)\to 1$, we can see that either we remove
+Fir we define a process where an even amount of $a$ 2's match up to form $a/2$ 0's. The rest match up with others to form $k-a$ 1's. Regardless of what $a$ is, the oddity of the amount of 1's is preserved. Since $(0,0)\to 0, (1,1)\to 0, (2,2)\to 0, (0,1) \to 1, (0,2)\to 1, (1,2)\to 1$, we can see that if $b$ amount of 2's match up to form $b/2$ 0's, we would have $k-b$ 1's.
+\newline
+Since $a,b$ are always even, the remaining amount will be odd if the original amount of 2's: $k$ is odd, and even otherwise. Let the amount of 1's be $m$, $m+(k-a) \bmod 2$ will always be the same regardless of what moves are taken.
+\newline
+Now we have reduced the problem to one that we have completed in class, where the game only has 1's and 0's. Now, the oddity of the 1's is preserved, and we can use that to come to a conclusion: if $k+m$ is even, there would be an even number of $1$'s, so the final number will be $0$; otherwise there would be an odd number of $1$'s, and the final number will be $1$.
+
 \section{Fri Lec, 3c}
+Let the amount of red chameleon's be $r$, greens be $g$, yellows be $y$. Whenever two of different color meet, they change to the third color. Take the differences of $r,y$, if the two chameleons are of these colors then they both lose 1, preserving the difference. Otherwise one of them is decreased by 1 while the other is increased by 2, so the difference increases by 3, which is equivalent modulo 3.
+\newline
+We can repeat this argument for all other color pairs. Therefore $r-y, g-r, y-g$ remains constant $\bmod 3$.
+\newline
+Now consider this problem. If it is possible to chanage every chameleon into a single color, aand since $2015+1013+572 \equiv 0 \bmod 3$ then $g-y \equiv 0$ or is . Now we check the differences $g-y = 2015-1013 = 1002 \equiv 0 \bmod 3$. $g-r = 2015-572=1443 \equiv 0$. $y-r = 1013-572=441\equiv 0$. Since all the differences are in line with what we stated, it is possible.
+\newline
+We match $147$ green chameleons with $147$ yellows, this creates $294$ reds, now we have $1868$ greens, $866$ yellows, $866$ reds. Now we simply match each red with each yellow, turning them all into greens. At the end we have $3600$ green chameleons, and the process is complete.
+
 
 \section{Fri Lec, 4}
+We know that the invariant of this machine is the order of the numbers: if $a<b$ are inputed as a pair, then the output $a',b'$ will still have $a'<b'$
+\newline
+Secondly, the largest odd factor of the difference is preserved. In this question, $(7,29)$ has $11$ as the largest odd factor.
 
+\subsection{a}
+$$(7,29) \to (8,30) \to (9, 31) ... \to (7+22, 29+22) = (29, 51)$$
+Thererfore it is possible.
+
+\subsection{b}
+$$(7,29) \to (8,30) \to (4, 15) \to (4+86, 15+86) = (90, 101)$$
+Thererfore it is possible.
+
+\subsection{c}
+$$(7,29) \to (7+30,29+30) = (37, 59) \to (37+33,59+33) = (70, 92)$$
+$$(7,29) \to (8,30) \to (4, 15) \to (4+55, 15+55) = (59,70)$$
+$$((37, 59), ((59,70)) \to (37, 70)$$
+$$((37, 70), ((70, 92)) = (37, 92)$$
+Thererfore it is possible.
+
+\subsection{d}
+$7 < 29$ but $39 > 27$, the order is flipped, so it is not possible.
+
+\subsection{e}
+$$(7,29) \to (7+33,29+33) = (40, 62) \to (40+22,62+22) = (62, 84)$$
+$$((40, 62), (62, 84)) \to (40, 84)$$
+Thererfore it is possible.
 
 \end{document}

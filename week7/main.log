@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.3)  9 OCT 2021 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.3)  9 OCT 2021 21:02
 entering extended mode
 **./main.tex
 (main.tex
@@ -398,32 +398,32 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 [1
 
 {C:/Users/Ethan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-[3] [4] [5] (main.aux) ) 
+[3] [4] [5] [6] [7] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 7022 strings out of 478893
- 113164 string characters out of 2849010
- 438200 words of memory out of 3000000
- 24791 multiletter control sequences out of 15000+600000
- 414360 words of font info for 71 fonts, out of 8000000 for 9000
+ 7023 strings out of 478893
+ 113181 string characters out of 2849010
+ 441200 words of memory out of 3000000
+ 24792 multiletter control sequences out of 15000+600000
+ 414667 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,6n,70p,388b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ethan/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ethan/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Ethan/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
-Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr17.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ethan/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Ethan/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/U
-sers/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/wasy-type1/wasy
-10.pfb>
-Output written on main.pdf (5 pages, 120231 bytes).
+ 61i,6n,70p,436b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ethan/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ethan/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
+s/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ethan/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ethan/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Ethan
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.p
+fb><C:/Users/Ethan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/wasy-ty
+pe1/wasy10.pfb>
+Output written on main.pdf (7 pages, 131319 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
