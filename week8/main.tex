@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{wasysym}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\degrees}{^{\circ}}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 74, Week 8}
+\maketitle
+
+\section{Mon Dis, 2c}
+Let $a\leq b \leq c \leq d$, we can do this since $\N$ is ordered. We rearrange $a+b+c+d = abcd$ to $a+b+c = d(abc-1)$
+\newline
+Since we have assumed an order, we have $a+b+c \leq 3d$, so $abc-1 \leq 3$, $abc \leq 4$
+\newline
+Now in this case $abc$ can only be $1,2,3,4$. We consider each of these cases:
+\newline
+$abc = 1 \implies a=1, b=1, c=1$, solving for our original equation gives $3 = 0d$, which does not have a solution.
+\newline
+$abc = 2$, by our assumed order we have $a=1, b=1, c=2$, and we solve $2d=4+d$, $d=4$, this gives a solution.
+\newline
+$abc = 3$, by our assumed order we have $a=1, b=1, c=3$, and we solve $3d=5+d$, which does not have an integer solution.
+\newline
+$abc = 4$, by our assumed order we have $a_0=1, b_0=1, c_0=4$, or $a_1=1, b_1 = 2, b_2=2$. Solving the first equation gives $d = 2$, which contradicts our assumption of $c \leq d$, so this is not a solution. Solving the latter gives $4d = 5+d$, which does not have an integer solution.
+\newline
+So finally we have our solution: rearrangements of $1,1,2,4$ is the only natural solution to this system.
+
+\section{Mon Dis, 4g}
+$$(7,29) \to (7+1,29+1) = (8, 30) \to (4, 15)$$
+$$(7,29) \to (7+67, 29+67) = (74, 96)$$
+$$(4,15) \to (4+59, 15+59) = (63, 74)$$
+$$(7,29) \to (7+34, 29+34) = (41, 63)$$
+
+\end{document}

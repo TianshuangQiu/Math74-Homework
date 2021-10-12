@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{wasysym}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\degrees}{^{\circ}}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 74, Week 2 Redo}
+\maketitle
+
+I have redone the problems that require regrading here in Latex.
+\section{Wed Lec, 6}
+Even numbers must end in one of $0, 2, 4, 6, 8$. Since if a number has the last number as an odd number, it is equal to $10k + 2n+1$, which is odd.
+\newline
+Now we consider the last digit, if it is $0$:
+\newline
+We have 9 choices for the first number, and then since the numebrs are not repeating, 8 choices for the second, for a total of:
+$$9 \times 8 = 72$$
+Otherwise the last digit must be $2, 4, 6, 8$. Since we don't have repeated numbers, and the first number cannot be $0$, we have 8 choices for the first digit, and with 2 already chosen, we have 8 choices for the second one as well:
+$$4 \times 8 \times 8 = 256$$
+We now sum up these two cases: $256 + 72 = 328$
+
+\section{Wed Dis, 3}
+
+\subsection{a}
+For this problem we can split the cases into passwords that have $6,7,8,9$ characters. For each sub-problem there are 26 choices for each slot, so when there are 6 characters we have $26^6$ choices, $26^7$ for 7 characters, and so on.
+\newline
+So we sum these up to count the total number of cases:
+$$26^6+26^7+26^8+26^9$$
+
+
+\subsection{b}
+To calculate the amount of "at least once" we can calculate its complement: where the letter "e" does not appear once. We then have 25 choices for each slot:
+$$25^6+25^7+25^8+25^9$$
+So to get the answer to this problem we subtract it from the one we found in (a):
+$$26^6+26^7+26^8+26^9-(25^6+25^7+25^8+25^9)$$
+
+
+\section{Fri Lec, 4}
+We first treat each letter as a unique character. Since the word has 11 characters we have $11!$ ways of rearranging it.
+\newline
+Next we observe that "S" is repeated 4 times, "I" is repeated 4 times, and "P" twice, so we divide them, leaving us with:
+\newline
+$$\frac{11!}{4!\times4!\times2!}$$
+\end{document}
