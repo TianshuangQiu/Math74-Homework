@@ -26,7 +26,50 @@
 \title{Math 74, Week 2 Redo}
 \maketitle
 
-I have redone the problems that require regrading here in Latex.
+\section{Mon Lec, 3}
+\subsection{d}
+An m by n board with two diagonally opposite corner squares removed can be tiled with dominos if and only if one of them is odd and the other is even.
+
+\subsection{e}
+If one of them is even, we first orient the board so that there is an even number of rows and an odd number of columns. When we remove the two corners the top and bottom rows now have even amount of tiles and can therefore can be tiled. The remaining $(m-2)$ rows are even, so we can put the dominos vertically in every column, filling up the remaining board.
+\newline
+If both are odd then the total amount is odd, and the dominos are even, so it is impossible. Otherwise if both are even then using our checkerboard pattern we realize that we are going to have more light squares than dark squares or vice versa, and it is therefore impossible.
+
+
+\subsection{5}
+The area is preserved
+\newline
+When the witches move, the triangle that they form have one of its points shifted parallel to the opposing leg. When this happens, the height remains constant. Since the area of a triangle is equal to $\frac{1}{2}al$, where $a$ is the length of the opposite leg, and it also remains constant. Therefore the area of the triangle does not change.
+\newline
+The original area is 4 square miles while the ending area is 4.5, so it is impossible.
+
+\subsection{6}
+$$(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1x_2$$
+$$(x_1+x_2)^2 - 4x_1x_2 > 12$$
+Subsituting m:
+$$(m+5)^2-(8m+12)>12$$
+$$m>2$$
+
+\subsection{Mon Dis 1c}
+Either m or n has to be even. We can form a circle with the people and if $m$ is even, each person shakes hands with neighbors that are $m/2$ places away left and right. Otherwise if $m$ is even and $n$ is odd, each person shakes hands with $(m-1)/2$ people left and right and the person directly opposite to them.
+\newline
+If both are odd, then the total amount of handshakes is odd, but that is impossible due to the handshake lemma.
+
+
+\subsection{Mon Dis, 2}
+When $n$ is a multiple of 4, we can tile it.
+\newline
+If $n$ is odd, since the total amount of tiles is even, it is impossible.
+\newline
+If $n$ is even but not divisible by 4, we can use the checkerboard pattern to see that $n^2$ must be divisible by 8, and sine $n$ is an integer, it must be divisible by 4. So in this case we cannot tile it either.
+
+\section{Wed Lec, 5}
+We first choose a captain, there are 11 ways to choose him.
+\newline
+Next we choose the rest of the team, since each person can be in or out, there are $2^{10}$ ways.
+\newline
+Thus we have $11 \times 2^{10}$ ways to choose such a team/
+
 \section{Wed Lec, 6}
 Even numbers must end in one of $0, 2, 4, 6, 8$. Since if a number has the last number as an odd number, it is equal to $10k + 2n+1$, which is odd.
 \newline
@@ -37,6 +80,11 @@ $$9 \times 8 = 72$$
 Otherwise the last digit must be $2, 4, 6, 8$. Since we don't have repeated numbers, and the first number cannot be $0$, we have 8 choices for the first digit, and with 2 already chosen, we have 8 choices for the second one as well:
 $$4 \times 8 \times 8 = 256$$
 We now sum up these two cases: $256 + 72 = 328$
+
+\section{Wed Lec, 7}
+Since there are 7 children and 3 pies, there are $3^7$ ways to give them some pie. To take the bad ones out, we remove the ways that all children get the same pie: $3$ ways to do that.
+\newline
+So we have $3^7-3$ ways
 
 \section{Wed Dis, 3}
 
@@ -53,6 +101,12 @@ $$25^6+25^7+25^8+25^9$$
 So to get the answer to this problem we subtract it from the one we found in (a):
 $$26^6+26^7+26^8+26^9-(25^6+25^7+25^8+25^9)$$
 
+\section{Wed Dis, 7}
+By the principle of inclusion exclusion, we take the floor division of each subset $150//4+ 150//6+150//7 - 150//28-150//12-150//42 + 150//89 = 64$
+
+
+\section{Fri Lec, 3b}
+We simply need to find the amount of ways to line them up. Then 1 can match with 2, 3 with 4, and so on. Since each ordering is considered different, there are $10!$ ways to choose this.
 
 \section{Fri Lec, 4}
 We first treat each letter as a unique character. Since the word has 11 characters we have $11!$ ways of rearranging it.
