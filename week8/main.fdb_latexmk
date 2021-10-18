@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1633992536 "main.tex" "main.pdf" "main" 1633992537
+["pdflatex"] 1634512945 "main.tex" "main.pdf" "main" 1634512946
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -21,12 +21,10 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm" 1579560596 908 375dcd194b89b9cc9481ab62f2da0667 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy6.tfm" 1579560596 912 8da0595e5e615d33e0b2860959a58bf8 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy7.tfm" 1579560596 912 e43f3049348c6f2670d3b324e657c6e7 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy8.tfm" 1579560596 904 a3deb54664adaaa632c6cdee911ffe34 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
@@ -84,9 +82,9 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1619229006 2724749 9f82f229435ef5504c426bb3feac99a2 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "main.aux" 1633992537 310 ff5407404dbef0d73eecc9c621c0cfe3 "pdflatex"
-  "main.tex" 1633992531 2246 90eb63aa9cb0fbf39cb44e6f17ba79fe ""
+  "main.aux" 1634512946 310 b106448b27a71136ee1fb7b3585f6958 "pdflatex"
+  "main.tex" 1634512941 2147 9f5ee73b59893d6acb27cbbddbbcf5a8 ""
   (generated)
+  "main.log"
   "main.aux"
   "main.pdf"
-  "main.log"
