@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{wasysym}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\degrees}{^{\circ}}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 74, Week 9}
+\maketitle
+
+\section{Mon Lec, 2}
+
+\subsection{a}
+Our monovariant is the sum of all the numbers. Consider $a = ka', b = kb', \gcd(a,b) = k, \lcm(a,b) = ka'b'$ Then $a+b = k(a'+b'), \gcd(a,b) +\lcm(a,b) = k(a'b'+1)$. $a'b' + 1$ will always be greater than or equal to $a' + b'$, so it is nondecreasing.
+
+\subsection{b}
+The upperbound is the $nL$, where $n$ is the amount of numbers, and $L$ the product of all the numbers. Since $L$ is the largest number that can appear by this process, multiplying it by the amount of numbers gives an upperbound.
+
+\subsection{c}
+Our monovariant changes discretely, and it can change by at least 1 per turn. Since it is nondecreasing, it must stabilize at a value in this process.
+
+\subsection{d}
+When the monovariant stops changing, we have $a+b = \gcd(a,b) +\lcm(a,b)$ therefore $a = \gcd(a,b), b = \lcm(a,b)$ or vice versa. Therefore the game also stops.
+
+
+\section{Mon Lec, 6}
+Let our monovariant be the largest of all the numbers. Since we are replacing them with the absolute value of the differences, the sum can only get smaller. Furthermore, since it can only take discrete changes, it must stabilize at some point.
+\newline
+At this point, all the number must be $\M$ or 0. Otherwise, the game will take the difference and $\M$ will now be smaller. Now we rescale this to only have $1$ and $0$.
+\newline
+We now describe a new game: instead of taking the absolute value of the difference, we add the two adjacent numbers. Even though this appears to violate our monovariant, we notice that our new circle is, in fact, equivalent to the original game if we take every number modulo 2. This is true because $a+b = a-b \bmod 2$ Therefore we can directly compute the original game's state with our new game.
+\newline
+Now we notice that the new game has numbers around it according to Pascal's triangle. Since an even number at a position mean that the original game has a $0$ at the same position, we just need to find a row in Pascal's triangle that has 7 even numbers in the middle (the 8th comes from the edge $1$'s summing to 2). We find it at $8, 28,56,70,56,28,8,2$.
+\newline
+Note that this reasoning will apply to all $2^k$ initial settings, since the $n$th row of Pascal's triangle is $\binom{2^n}{k}$, which is even for $1<k<2^n$, and the ends sum to $2$.
+
+
+\section{Mon Dis, 1c}
+Since each entry can be either positive or negative, there are at most $2^{4} = 16$ boards. Furthermore, we split these into 8 boards with an odd number of flips and 8 with even numbers.
+\newline
+Let
+
+
+\section{Wed Lec}
+Since there are $2n$ dots and only finitely many ways to connect them, there are finitely many values of our sum
+Therefroe our monovariant $M$ stabilizes, and we reach a configuration with no ccrossings.
+
+
+\end{document}
