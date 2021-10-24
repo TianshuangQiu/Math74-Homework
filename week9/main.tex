@@ -30,7 +30,7 @@
 \section{Mon Lec, 2}
 
 \subsection{a}
-Our monovariant is the sum of all the numbers. Consider $a = ka', b = kb', \gcd(a,b) = k, lcm(a,b) = ka'b'$ Then $a+b = k(a'+b'), \gcd(a,b) +lcm(a,b) = k(a'b'+1)$. $a'b' + 1$ will always be greater than or equal to $a' + b'$, so it is nondecreasing.
+Our monovariant is the sum of all the numbers. Consider $a = ka', b = kb', \gcd(a,b) = k, lcm(a,b) = ka'b'$ Then $a+b = k(a'+b'), \gcd(a,b) +lcm(a,b) = k(a'b'+1)$. $a'b' + 1$ will always be greater than or equal to $a' + b'$ for $a', b' > 0$, so it is nondecreasing.
 
 \subsection{b}
 The upperbound is the $nL$, where $n$ is the amount of numbers, and $L$ the product of all the numbers. Since $L$ is the largest number that can appear by this process, multiplying it by the amount of numbers gives an upperbound.
@@ -52,29 +52,100 @@ We now describe a new game: instead of taking the absolute value of the differen
 Now we notice that the new game has numbers around it according to Pascal's triangle. Since an even number at a position mean that the original game has a $0$ at the same position, we just need to find a row in Pascal's triangle that has 7 even numbers in the middle (the 8th comes from the edge $1$'s summing to 2). We find it at $8, 28,56,70,56,28,8,2$.
 \newline
 Note that this reasoning will apply to all $2^k$ initial settings, since the $n$th row of Pascal's triangle is $\binom{2^n}{k}$, which is even for $1<k<2^n$, and the ends sum to $2$.
+\newpage
 
 
 \section{Mon Dis, 1c}
 We have shown in class that there can be at most 7 moves for each square. Therefore we construct the following square.
+$$
+\begin{bmatrix}
+-2 & -1\\
+-3 & -4
+\end{bmatrix}
+\to
+\begin{bmatrix}
+2 & 1\\
+-3 & -4
+\end{bmatrix}
+\to
 \begin{bmatrix}
 -2 & 1\\
--3 & 4
+3 & -4
 \end{bmatrix}
-$\to$
+\to
+\begin{bmatrix}
+2 & -1\\
+3 & -4
+\end{bmatrix}
+$$
+
+$$
+\to
 \begin{bmatrix}
 2 & -1\\
 -3 & 4
 \end{bmatrix}
-$\to$
+\to
 \begin{bmatrix}
-2 & -1\\
-4 & -3
+-2 & -1\\
+3 & 4
 \end{bmatrix}
+\to
+\begin{bmatrix}
+2 & 1\\
+3 & 4
+\end{bmatrix}
+$$
+
+\section{Mon Dis, 5}
+\subsection{a}
+Since $\phi>1$, $\lim_{m\to \infty} \phi^m = \infty$, thus the series diverges to $\infty$
+
+\subsection{b}
+Since $\phi>1$, we can apply the geometric series sum with r = $1/phi$:
+$$\frac{1}{1-1/\phi} = \frac{1}{1-2/(1+\sqrt5)} = \frac{1}{(-1+\sqrt5)/(1+\sqrt5)} = \frac{1+\sqrt5}{\sqrt5-1} = \frac{(1+\sqrt5)(1+\sqrt5)}{(\sqrt5-1)(1+\sqrt5)}$$
+$$=\frac{6+2\sqrt5}{4} = \frac{3+\sqrt5}{2}$$
+Now consider $\phi^2$:
+$$(\frac{1+\sqrt5}{2})^2 = \frac{6+2\sqrt5}{4} = \frac{3+\sqrt5}{2}$$
+Thus we can see that they are equal.
+\newpage
 
 
-\section{Wed Lec}
-Since there are $2n$ dots and only finitely many ways to connect them, there are finitely many values of our sum
-Therefroe our monovariant $M$ stabilizes, and we reach a configuration with no ccrossings.
+\section{Wed Lec, 5f}
+The first boy has $n$ choices, and the second $n-1$, and so on. The last boy has $1$ choice since there is only one girl left. This gives a total of $n!$ possible configurations.
+\newpage
+
+\section{Fri Lec, 4d}
+\subsection{$\sin(2\alpha)$}
+From $e^{i\theta}=\cos(\theta)+i\sin(\theta)$ and $e^{-i\theta}=\cos(\theta)-i\sin(\theta)$,
+we know that
+$$\sin(\alpha)=\frac{e^{\alpha i}-e^{-\alpha i}}{2i}$$
+$$\cos(\alpha)=\frac{e^{\alpha i}+e^{-\alpha i}}{2}$$
+Now we multiply these to get:
+$$\sin(\alpha)\cos(\alpha)=\frac{e^{2\alpha i}-e^{-2\alpha i}}{4i}$$
+On the other side:
+$$\sin(2\alpha)=\frac{e^{2\alpha i}-e^{-2\alpha i}}{2i}$$
+Thus we can see that it is equal to $2\sin(\alpha)\cos(\alpha)$
+
+\subsection{$\cos(2\alpha)$}
+
+$$\cos(2\alpha)=\frac{e^{2\alpha i}+e^{-2\alpha i}}{2}$$
+$$\cos^2(\alpha)=(\frac{e^{\alpha i}+e^{-\alpha i}}{2})^2 =
+\frac{e^{2\alpha i}+e^{-2\alpha i}+2}{4}$$
+$$\sin^2(\alpha)=(\frac{e^{\alpha i}-e^{-\alpha i}}{2i})^2=
+\frac{e^{2\alpha i}+e^{2-\alpha i}-2}{-4}$$
+
+$\cos^2(\alpha)-\sin^2(\alpha)$ removes the negative in -4, leading to $\frac{2(e^{2\alpha i}+e^{-2\alpha i})}{4}$, which simplifies to $\cos(2\alpha)$
 
 
+\section{Fri Lec, 6}
+\subsection{a}
+Since we know that our nonagon is inscribed inside a unit circle, all complex points on our shape has length 1. Now using polar angles we know that each side has angle $\frac{2\pi}{9}$. Now we simply write each point as $\cos(2\pi j/9)+i\sin(2\pi j/9)$, using our equations, we know that it is equal to
+$$\frac{e^{(2\pi j/9 )i}+e^{(-2\pi j/9)i}}{2}+\frac{e^{(2\pi j/9) i}-e^{(-2\pi j/9) i}}{2} = e^{(2\pi j/9) i}$$
+Thus we have $A_j =  e^{2\pi  j i/9 }$
+
+\subsection{b}
+We calculate $z_1 = e^{2\pi i/9 }$, so $z_1^5 = e^{10\pi i/9 }$ Since we know that $e^{2\pi i}$ gets us back to $z_0$, this ends up at the same spot: $z_1$, since we can write $z_1^5 \equiv e^{1\pi i/9 }$ in our system (essentially modding 9).
+\newline
+Similarly, for $z_1^9$, we know that it is equal to $e^{2\pi i}=0$, so we are at $A_0$.
 \end{document}
