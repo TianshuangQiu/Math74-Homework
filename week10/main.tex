@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{wasysym}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\degrees}{^{\circ}}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 74, Week 10}
+\maketitle
+
+\section{Mon Lec, 6c}
+$$z^{n-1}-1 = \prod_{n=0}^{n-1}(z-\omega_n)$$
+As shown in class, the complex roots are evenly spaced across the unit circle, $2\pi/n$ apart. So we have
+$$\omega_k = e^{2\pi i \frac{m}{n}}$$
+
+
+\section{Mon Lec, 6f}
+$$(z-1)(z^{n-1}+z^{n-2}+...+z^{2}+z+1) = (z^n+z^{n-1}+...+z^2+z)-(z^{n-1}+z^{n-2}+...+z+1)=z^n-1$$
+Therefore we can switch our statement to $\frac{z^n-1}{z-1}$
+\newline
+Now we subsitute our answer from the previous question in, and since $\omega_0=1$, it cancels out with the first term.
+\newline
+We can factor the expression into
+$$\prod_{n=1}^{n-1}(z-\omega_n)$$
+where
+$$\omega_k = e^{2\pi i \frac{m}{n}}$$
+Essentially the same as 6c but with $z=1$ removed.
+
+
+\section{Mon Lec, 7b}
+
+
+\end{document}
