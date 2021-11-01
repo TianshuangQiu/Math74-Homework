@@ -28,9 +28,9 @@
 \maketitle
 
 \section{Mon Lec, 6c}
-$$z^{n-1}-1 = \prod_{n=0}^{n-1}(z-\omega_n)$$
+$$z^{n-1}-1 = \prod_{k=0}^{n-1}(z-\omega_k)$$
 As shown in class, the complex roots are evenly spaced across the unit circle, $2\pi/n$ apart. So we have
-$$\omega_k = e^{2\pi i \frac{m}{n}}$$
+$$\omega_k = e^{2\pi i \frac{k}{n}}$$
 
 
 \section{Mon Lec, 6f}
@@ -40,13 +40,47 @@ Therefore we can switch our statement to $\frac{z^n-1}{z-1}$
 Now we subsitute our answer from the previous question in, and since $\omega_0=1$, it cancels out with the first term.
 \newline
 We can factor the expression into
-$$\prod_{n=1}^{n-1}(z-\omega_n)$$
+$$\prod_{k=1}^{n-1}(z-\omega_k)$$
 where
-$$\omega_k = e^{2\pi i \frac{m}{n}}$$
+$$\omega_k = e^{2\pi i \frac{k}{n}}$$
 Essentially the same as 6c but with $z=1$ removed.
 
 
 \section{Mon Lec, 7b}
 
+\subsection{6c}
+Sum: $-\frac{0}{1}=0$
+\newline
+Product: $(-1)^n\frac{1}{1} = (-1)^n$
+
+\subsection{6f}
+Sum: $-\frac{1}{1}=-1$
+\newline
+Product: $(-1)^n\frac{0}{1} = 0$
+\newpage
+
+
+\section{Mon Dis, 1a}
+$$|A_0A1|...|A_0A_8|=\prod_{k=0}^{8}|1-\omega_k|=|\prod_{k=0}^{8}(1-\omega_k)|$$
+The last equivalency is due the fact that multiplication of the modulus is equal to the modulus of the product.
+\newline
+We have proven above that $(z-1)(z^{n-1}+z^{n-2}+...+z^{2}+z+1)=z^n-1$, so consider
+$$\frac{z^n-1}{z-1}=\frac{(z-1)(z^{n-1}+z^{n-2}+...+z^{2}+z+1)}{z-1}=z^{n-1}+z^{n-2}+...+z^{2}+z+1$$
+Now using the roots of the polynomial we know that $z^9-1=(z-1)(z-\omega)...(z-\omega^8)$, in this case we have divided out $z-1$, so we have
+$$z^8+z^7+...+1=(z-\omega)...(z-\omega^8)$$
+Let $z=1$, and we have $9=(z-\omega)...(z-\omega^8)$, since $|9|=9$, we have shown that $|A_0A1|...|A_0A_8|=9$
+
+
+\section{Mon Dis, 3f}
+Let $x=y-2$, so $x^3=y^3-6y^2+12y-8$. Now we plug $y$ back
+$$y^3-6y^2+12y-8 = -6(y-2)^2-12y+24-6$$
+$$y^3-6y^2+12y-8 = -6y^2+12y-6$$
+$$y^3 = 2$$
+Now since we know that $2^3=8$, we can directly solve:
+$y_1= \sqrt[3]{2}, x_1=\sqrt[3]{2}+2$
+\newline
+Then we factor $(y^3)/(y-\sqrt[3]{2})=y^2+\sqrt[3]{2}y+\sqrt[3]{4}$ Now we apply the quadratic formula to get
+$$y_2=\frac{-1-\sqrt3i}{\sqrt[3]{2}}, y_3=\frac{-1+\sqrt3i}{\sqrt[3]{2}}$$
+So we have $x_2=\frac{-1-\sqrt3i}{\sqrt[3]{2}}-2, x_3=\frac{-1+\sqrt3i}{\sqrt[3]{2}}-2$
 
 \end{document}
