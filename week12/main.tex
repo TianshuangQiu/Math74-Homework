@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{wasysym}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\degrees}{^{\circ}}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 74, Week 12}
+\maketitle
+\newpage
+
+\section{Mon Lec, 1c}
+Assume that there is a point $x_0, x_1 \in [a,b]$ such that $f(x_0) \not = f(x_1)$, then by the Mean Value Theorem there exists $x_2 \in [x_0, x_1]$ such that $f'(x_2)=\frac{f(x_0)-f(x_1)}{x_0-x_1}$. We know this to be non-zero since $f(x_0) \not = f(x_1)$, however this contradicts the precondition that $f'(x)=0 \forall x \in [a,b]$. We have a contradiction and therefore $f(x_0)=f(x_1)$ for all $x_0, x_1 \in [a,b]$
+Thus our function must be constant.
+
+\section{Mon Lec, 2b}
+Let $A(t)$ be the distance runner A has traveled during the race at any time $t$ in seconds, and let $B(t)$ be the same with runner B. Let $f(t)=A(t)-B(t)$, since they both begin at the same spot, $A(0)=B(0)=0$
+\newline
+Similarly, since they both finish the same race, and end in a tie. Let them take $t_0$ seconds to finish, so we have $A(t_0)=B(t_0)$. Thus we have $f(t_0)=f(0)=0$, now by Rolle's Theorem there exists $x \in [0,x_0]$ such that $f'(x)=0$. We know that the derivative of $f$ is $A'(t)-B'(t)$
+Furthermore, we know that the derivative of the distance with respect to time is the speed of travel, so we know that at $t=x$, the speed of runner A and B are the same.
+
+\section{Mon Lec, 2d}
+$f(4)=\frac{1}{1}=1, f(1)=\frac{1}{(-2)^2}=\frac{1}{4}$, and $f(4)-f(1)=\frac{3}{4}$, thus $f'(c)=3 \times \frac{3}{4} = \frac{1}{4}$. Now take the derivative of the function $f'(x)=\frac{-2}{(x-3^3)}$
+$$\frac{-2}{(x-3)^3} = \frac{1}{4}$$
+$$-8 = (x-3)^3$$
+$$x=1$$
+This is the only real solution and is not in $(1,4)$, so there is no solution to the problem. This does not contradict the Mean Value Theorem because the function is not continuous and therefore not differentiable at $x=3$
+\newpage
+
+\section{Mon Dis, 2}
+\subsection{d}
+Fermat's theorem assumes that $f'(c)$ exists at the maximum or minimum, the existence of the derivative implies that the function is continuous. Therefore FT's assumption is stronger than EVT and CIM which just assumes continuity. We can show that an assumption is necessary by constructing a function that does not follow the assumption, but follows the hypothesis and does not follow the conclusion.
+
+\subsection{e}
+FT deals with local maximums and minimums, which already implies a non-finite interval that we are working with, since we are only concerned with values close to $c$, we don't really care about the end points. EVT and CIM needs closed intervals becauseit is in the name and extrema may not exist in an open interval.
+
+\subsection{f}
+RT, MVT (CMVT), and IVT are existential theorems, EVT, CIM, and FT show us how to find the extremes.
+
+\subsection{g}
+FT Converse: If $f'(c)=0$, then it is the local maximum or minimum of a function. It is not true since the function could be constant, and maximums need to be strictly bigger.
+
+\newline
+EVT Converse: If $f$ has a global maximum and a global minimum at some numbers $c,d$, let $c,d \in [a,b]$ then $f$ is continuous on $[a,b]$. This is not true since we can take a constant function and define a point to be arbitrarily big and another to be small, the function is not continuous.
+
+\newline
+CIM converse: The smallest/largest values from all critical points in $(a,b)$ and the end points in $[a,b]$ are the global minimum and maximums on the closed interval $[a,b]$. This is true since it is what we use to write the CIM.
+\newpage
+
+\section{section name}
+Assume that we have at least 3 roots with $r_1 < r_2 < r_3$, so we have $f(r_1)=f(r_2)=f(r_3)=0$ by the definition of roots. So by Rolle's Theorem there exists $a_1 \in (r_1, r_2), b_1 \in (r_2, r_3)$ such that $f'(a_1)=f'(a_2)=0$.
+\newline
+Now consider the derivative of our function: $f'(x)=4x^3+4=0$. Our assumption implies that $f'(x)$ must have at least 2 real roots. So we attempt to solve $x^3+1=0$, but we can now apply the principle roots of unity to see that $x=-1$ is the only real root to $f'(x)=0$. Thus we have a contradiction, so we must only have at most 2 roots for $f$.
+
+\section{Wed Lec, 4a}
+Base case: $n=1$. A degree 1 polynomial is a line, so it can either intersect the $x$ axis or be parallel to it. Therefore it can either have $1$ or $0$ roots, and our base case is true.
+\newline
+
+Inductive Hypothesis: assume that for all $m \leq n$ polynomials of degree $m$ have at most $m$ roots.
+\newline
+
+Inductive step: assume that for some $n+1$ degree polynomial this does not hold, so it must have at least $n+2$ roots. Its derivative is a $n$ degree polynomial by the power rule. Then between each of the roots of our $n+1$ polynomial we can apply Rolle's Theorem. Since there are at least $n+2$ roots, there must be at least $n+1$ points in between theese roots where the derivative is 0. However since we know that the derivative has at most $n$ roots, we have a contradiction. Therefore our assumption is false and there are at most $n+1$ roots for our new polynomial.
+\end{document}
