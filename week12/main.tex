@@ -57,13 +57,26 @@ RT, MVT (CMVT), and IVT are existential theorems, EVT, CIM, and FT show us how t
 
 \subsection{g}
 FT Converse: If $f'(c)=0$, then it is the local maximum or minimum of a function. It is not true since the function could be constant, and maximums need to be strictly bigger.
-
 \newline
 EVT Converse: If $f$ has a global maximum and a global minimum at some numbers $c,d$, let $c,d \in [a,b]$ then $f$ is continuous on $[a,b]$. This is not true since we can take a constant function and define a point to be arbitrarily big and another to be small, the function is not continuous.
-
 \newline
 CIM converse: The smallest/largest values from all critical points in $(a,b)$ and the end points in $[a,b]$ are the global minimum and maximums on the closed interval $[a,b]$. This is true since it is what we use to write the CIM.
 \newpage
+
+
+\section{Wed Lec, 4a}
+$f(1)=8$, $f(-1)=-6$, so by IVT there must exist some number $r \in (1,1)$ such that $f(r)=0$, therefore there is at least one root.
+\newline
+We take the derivative: $2+3x^2+20x^4 = 0$, since each term with $x$ is non-negative, this polynomial has no real roots. Therefore if there are more than one root, by Rolle's theorem its derivative must have at least one root. Since this is not the case the original function can have at most one root.
+\newline
+Thus it has only one root.
+
+
+\section{Wed Lec, 4b}
+Consider the function $g(x) = f(x)-x$. Since $0 \leq f(x) \leq 1$, $g(0) \geq 0$ and $g(1) \leq 0$. Furthermore, since $f$ is continuous, $g$ is also continuous. Then by the Intermediate Value Theorem there exists a point in $[0,1]$ such that $g(x)=0$, and therefore $f(x)=x$
+
+\section{Wed Lec, 4c}
+
 
 \section{section name}
 Assume that we have at least 3 roots with $r_1 < r_2 < r_3$, so we have $f(r_1)=f(r_2)=f(r_3)=0$ by the definition of roots. So by Rolle's Theorem there exists $a_1 \in (r_1, r_2), b_1 \in (r_2, r_3)$ such that $f'(a_1)=f'(a_2)=0$.
