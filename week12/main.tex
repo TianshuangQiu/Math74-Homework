@@ -45,6 +45,15 @@ $$x=1$$
 This is the only real solution and is not in $(1,4)$, so there is no solution to the problem. This does not contradict the Mean Value Theorem because the function is not continuous and therefore not differentiable at $x=3$
 \newpage
 
+
+\section{Mon Dis, 1d}
+Let the farmer be $a$ km away from the river, the cow $b$ km away, and if they both move to the river, they are $c$ km away from each other. Now, let the distance the farmer travels be $F(x)$, where $x$ is the horizontal distance the farmer travels to his point in the river. $F(x)= \sqrt{a^2+x^2}+\sqrt{(c-x)^2+b^2}$ by the Pythagorean Theorem.
+We want to find the minimum of this function, so we apply Fermat's Theorem and set
+$$F'(x)= \frac{x}{\sqrt{a^2+x^2}} + \frac{x-c}{\sqrt{(c-x)^2+b^2}} = 0$$
+Therfore $\frac{x}{\sqrt{a^2+x^2}} = \frac{c-x}{\sqrt{(c-x)^2+b^2}}$, and $x\sqrt{(c-x)^2+b^2} = (c-x)\sqrt{a^2+x^2}$. Finally square both sides $x^2((c-x)^2+b^2) = (c-x)^2(a^2+x^2)$, $(c-x)^2x^2+b^2x^2=(c-x)^2x^2+(c-x)^2a^2$, now take the square root of both sides after cancelling
+$$bx=ac-ax$$
+$x = \frac{ac}{a+b}$
+
 \section{Mon Dis, 2}
 \subsection{d}
 Fermat's theorem assumes that $f'(c)$ exists at the maximum or minimum, the existence of the derivative implies that the function is continuous. Therefore FT's assumption is stronger than EVT and CIM which just assumes continuity. We can show that an assumption is necessary by constructing a function that does not follow the assumption, but follows the hypothesis and does not follow the conclusion.
@@ -76,19 +85,48 @@ Thus it has only one root.
 Consider the function $g(x) = f(x)-x$. Since $0 \leq f(x) \leq 1$, $g(0) \geq 0$ and $g(1) \leq 0$. Furthermore, since $f$ is continuous, $g$ is also continuous. Then by the Intermediate Value Theorem there exists a point in $[0,1]$ such that $g(x)=0$, and therefore $f(x)=x$
 
 \section{Wed Lec, 4c}
-
-
-\section{section name}
-Assume that we have at least 3 roots with $r_1 < r_2 < r_3$, so we have $f(r_1)=f(r_2)=f(r_3)=0$ by the definition of roots. So by Rolle's Theorem there exists $a_1 \in (r_1, r_2), b_1 \in (r_2, r_3)$ such that $f'(a_1)=f'(a_2)=0$.
+Our sequence is defined as $a_n = \sqrt{2a_{n-1}}, a_1 = \sqrt{2}$. We first show that $a_n$ is monotonically increasing. In order to show that $a_n < a_{n+1}$ is equivalent to showing $a_n < \sqrt{2a_{n}}$ which simplifies to $a_n < 2$
 \newline
-Now consider the derivative of our function: $f'(x)=4x^3+4=0$. Our assumption implies that $f'(x)$ must have at least 2 real roots. So we attempt to solve $x^3+1=0$, but we can now apply the principle roots of unity to see that $x=-1$ is the only real root to $f'(x)=0$. Thus we have a contradiction, so we must only have at most 2 roots for $f$.
-
-\section{Wed Lec, 4a}
-Base case: $n=1$. A degree 1 polynomial is a line, so it can either intersect the $x$ axis or be parallel to it. Therefore it can either have $1$ or $0$ roots, and our base case is true.
+We can show this inductively. Our base case is $n=1, a_1 = \sqrt{2}<2$. Then assume that for some $n \in \N$ we have $a_n < 2$, then $a_{n+1} = \sqrt{2a_n} < \sqrt{2 \times 2} = 2$. Thus we have proven our inductive case.
 \newline
-
-Inductive Hypothesis: assume that for all $m \leq n$ polynomials of degree $m$ have at most $m$ roots.
+The sequence is monotonic and bounded, therefore it must converge. Let it converge to $L$, since every subsequence of the same sequence also converge to $L$, $\lim_{n \to \infty}a_n = \lim_{n \to \infty}a_{n+1}=L$, so we must have $L = \sqrt{2L}$
 \newline
+Solving for $L$ gives $L = 2,0$. Since we know that $a_n$ is increasing and $a_1>0$, $L=2$. Therefore the sequence converges to 2.
+\newpage
 
-Inductive step: assume that for some $n+1$ degree polynomial this does not hold, so it must have at least $n+2$ roots. Its derivative is a $n$ degree polynomial by the power rule. Then between each of the roots of our $n+1$ polynomial we can apply Rolle's Theorem. Since there are at least $n+2$ roots, there must be at least $n+1$ points in between theese roots where the derivative is 0. However since we know that the derivative has at most $n$ roots, we have a contradiction. Therefore our assumption is false and there are at most $n+1$ roots for our new polynomial.
+
+\section{Wed Dis, 3c}
+Since $f$ is continuous on $[a,b]$, let it take its maximum at $x_0$ and minimum at $x_1$. Now by Rolle's Theorem's assumption $f(a)=f(b)$. If $x_0, x_1 \in \{a,b\}$, then $f$ is constant on $[a,b]$ and $f'(x)=0$ for all $x \in (a,b)$. Otherwise by Fermat's Theorem if $x_0 \in (a,b)$ then $f'(x_0)=0$, or if $x_1 \in (a,b)$ then $f'(x_1)=0$. Thus it is proven.
+
+\section{Wed Dis, 4b}
+Consider $h(x)=g(x)-f(x)$. $h(a) = g(a)-f(a)=0, h'(x)=g'(x)-f'(x)$. By the specification of the problem we know that $h'(x) > 0 $ when $x \in (a,b)$
+\newline
+Now consider $h(b)$, assume that $g(b) \leq f(b)$, so $h(b) \leq 0$, then by MVT there must be a point $c \in (a,b)$ such that $h'(c) = \frac{h(b)-h(a)}{a-b}$. Since $h(a)=0$, then $h'(c)\leq 0$, so $g'(c)-f'(c)\leq 0$, but we know that this is not possible since $f'(x)<g'(x)$ for all $x \in (a,b)$. We have reached a contradiction, and our assumption incorrect and $g(b)>f(b)$.
+\newline
+$\blacksquare$
+\newpage
+
+
+\section{Fri Lec, 2d}
+\subsection{a}
+Let $\epsilon>0$, $\exists N \in \N$ such that for all $n > N$, $|x_n-7|<\epsilon$
+
+\subsection{b}
+Let $\epsilon > 0$, $\exists \delta > 0$ such that $|x-5|<\delta \implies |f(x)-7|<\epsilon$
+
+\subsection{c}
+$\exists \delta > 0, u \in \R$ such that $|x-5|< \delta \implies f(x)<u$
+
+\subsection{d}
+Let $x_0 \in \R$, $\exists \epsilon > 0$ and $x_1<x_0 \in \R$ such that $|f(x_1)-7| \geq \epsilon$
+
+
+\section{Fri Lec, 5b}
+We claim that $\lim_{x \to 9}\sqrt{x}=3$
+\newline
+Let $\epsilon > 0$, pick $\delta = \epsilon ^ 2 + 6\epsilon$, for $|x-9|<\delta$, we can use the triangle inequality to show that $|x|<|\delta + 9|$. We have $|f(x)-3| = |\sqrt{x}-3| < |\sqrt{|\delta + 9|-3}| = |\sqrt{(3+\epsilon)^2}-3|= \epsilon$
+\newline
+Now reorganizing the epxression above: $|f(x)-3| < \epsilon$. Thus we have proven the epsilon delta property, and the limit at $9$ is $3$.
+
+
 \end{document}
