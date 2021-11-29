@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{wasysym}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\degrees}{^{\circ}}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 74, Week 12}
+\maketitle
+
+\section{Mon Lec, 5}
+\subsection{a}
+$|K|=6$, let $e$ be the identity transformation and $r$ be a rotation of $\frac{360}{6}=60 \degrees$. The other elements are: $r^2, r^3, r^4, r^5$
+
+\subsection{b}
+Since $D_6$ is the group of all symmetries, $K$ is only the rotational ones, and $D_6$ also contains reflective symmetries. Therefore $K$ is a subgroup of $D_6$
+
+\subsection{c}
+Let our generator $\omega = r$, $\omega ^ 0 = e, \omega^1 = r, \omega^2 = r^2$, and so on. It is a generator because its powers can generate all the elements of our gorup.
+
+\subsection{d}
+Let our generator $\omega = r^5$, $\omega^0 = e, \omega^1 = r^5, \omega^2 = r^4, \omega^3=r^3$ etc.
+
+
+\end{document}
