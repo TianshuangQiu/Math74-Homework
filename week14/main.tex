@@ -70,7 +70,14 @@ Thus it is proven.
 
 
 \section{Mon Dis, 3c}
-Let our box have dimensions $h,w,l$ for height, width, and length. Now we know by AM-GM that $\frac{h+w+l}{3} \geq \sqrt[3]{whl}$. Since this box is inscribed on the ellipsoid, the edge in the octant 1 with coordinates $(w/2,l/2,h/2)$ satisfies $$\frac{w^2}{4a^2}+\frac{l^2}{4b^2}+\frac{h^2}{4c^2} = 1$$
-Now we manipulate the equation: $w^2b^2c^2+l^2a^2c^2+h^2a^2b^2 = 4a^2b^2c^2$
-
+Let our box intersect the ellipsoid in octant 1 at $(x,y,z)$. Since it is on the ellipsoid we have $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$.
+\newline
+By AM-GM inequality we have $$(\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2})/3 \geq \sqrt[3]{\frac{x^2}{a^2}\frac{y^2}{b^2}\frac{z^2}{c^2}}$$
+$$\frac{1}{3} \geq \sqrt[3]{\frac{x^2y^2z^2}{a^2b^2c^2}}$$
+$$\frac{1}{27} \geq \frac{x^2y^2z^2}{a^2b^2c^2}$$
+Now the volume of our cube is simply $8xyz$ since each side is double the intersection point in octant 1.
+$$\frac{1}{27a^2b^2c^2} \geq x^2y^2z^2$$
+$$xyz \leq abc\sqrt{\frac{1}{27}}$$
+$$8xyz \leq 8abc\sqrt{\frac{1}{27}}$$
+Thus we have found the maximum value.
 \end{document}
