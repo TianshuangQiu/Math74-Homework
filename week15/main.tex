@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{wasysym}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\graphicspath{ {./} }
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\prob}{\mathbb{P}}
+\newcommand{\degrees}{^{\circ}}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\author{Tianshuang (Ethan) Qiu}
+\begin{document}
+\title{Math 74, Week 15}
+\maketitle
+
+\section{Mon Lec, 2b}
+$g_2 = \sqrt{a_1a_2}$, so $(1+g_2)^2 = 1 + a_1a_2 + 2\sqrt{a_1a_2}$
+\newline
+Our left hand side should be $(1+a_1)(1+a_2) = 1 + a_1a_2 + a_1 + a_2$. By Am-GM, $LHS \geq RHS$
+\newline
+Now we consider 3 elements. $g_3 = \sqrt[3]{a_1a_2a_3}$, and $(1+g_3)^3 = 1 + a_1a_2a_3 + 3\sqrt[3]{a_1a_2a_3} + 3(a_1a_2a_3)^{2/3}$.
+\newline
+Now LHS has $(1+a_1)(1+a_2)(1+a_3) = 1 + a_1 + a_2 + a_3 + a_1a_2 + a_1a_3 + a_2a_3 + a_1a_2a_3 $
+Here we can cancel the $1$ on both sides, and by AM-GM we have $a_1+a_2+a_3 \geq 3\sqrt[3]{a_1a_2a_3}$. Now let the three terms be $a_1a_2$, $ a_1a_3$, and $ a_2a_3$. By AM-GM we have $a_1a_2 + a_1a_3 + a_2a_3 \geq 3 \sqrt[3]{a_1^2a_2^2a_3^2}$.
+\newline
+Thus we have shown that $LHS \geq RHS$ term by term.
+
+
+\section{Mon Lec, 3c}
+Since our plane passes through the point $(5,9,12)$, we know that the equation of a plane can be given by $\frac{x}{r} +
+\frac{y}{s} + \frac{z}{t} = 1$.
+Furthermore we have $\frac{5}{r} + \frac{9}{s} + \frac{12}{t} = 1$. Now we apply the Hamonic Mean-GM inequality:
+$$\frac{3}{\frac{5}{r} + \frac{9}{s} + \frac{12}{t}} \leq \sqrt[3]{\frac{rst}{540}}$$
+Now from the equation of the plane we know that $LHS = 3$, so now $\sqrt[3]{\frac{rst}{540}} \geq 3$, $\frac{rst}{540} \geq 27$
+Finally, since the volume of this terahedron is equal to $\frac{1}{2}rst$, we know that $V \geq 7290$.
+\newline
+When the terms $\frac{5}{r}, \frac{9}{s},\frac{12}{t}$ are equal, we have $V = 7290$. Furthermore their sum is equal to 1. Therefore they are eaech a third. $r = 15, s = 27, t = 36$.
+\end{document}
